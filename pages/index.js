@@ -22,9 +22,9 @@ export default function Home() {
       <Works />
       <div className="h-[150px]"></div>
       <FAQ />
-      {/* 
       <div className="h-[250px]"></div>
       <PeopleSay />
+      {/* 
       <div className="h-[250px]"></div>
       <Footer /> */}
     </main>

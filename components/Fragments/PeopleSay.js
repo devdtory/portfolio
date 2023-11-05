@@ -10,8 +10,8 @@ function PeopleSay() {
         Really fast responses. They finished a project with a 2 day window{" "}
         <br /> in about an hour
       </p>
-      <div className="mt-8 grid grid-cols-3 px-[100px] gap-5">
-        <div className="col-span-2 bg-white rounded-lg p-8">
+      <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-5">
+        <div className="lg:col-span-2 bg-white rounded-lg p-8">
           <div className="flex items-center space-x-1">
             <span>
               <svg
