@@ -16,16 +16,17 @@ export default function Home() {
       <TrustedBy />
       <div className="h-[100px]"></div>
       <Process />
-      <div className="h-[250px]"></div>
+      <div className="h-[180px] lg:h-[250px]"></div>
       <Services />
       <div className="h-[185px]"></div>
       <Works />
       <div className="h-[150px]"></div>
       <FAQ />
+      {/* 
       <div className="h-[250px]"></div>
       <PeopleSay />
       <div className="h-[250px]"></div>
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }

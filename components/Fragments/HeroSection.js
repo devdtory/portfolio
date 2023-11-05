@@ -2,8 +2,8 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section className="mt-[218px] px-[100px]">
-      <h1 className="headingGradient text-[72px] text-center font-bold leading-[90.36px]">
+    <section className="mt-[160px] lg:mt-[218px] px-[20px] lg:px-[100px]">
+      <h1 className="headingGradient text-[40px] lg:text-[72px] text-center font-bold leading-[50px] lg:leading-[90.36px]">
         Every Design Woven <br /> Into A Story
       </h1>
       <p className="text-white text-center mt-7 leading-[24px]">

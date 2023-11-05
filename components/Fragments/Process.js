@@ -12,8 +12,8 @@ function Process() {
         vibrant realities.
       </p>
       <div className="h-[100px]"></div>
-      <div className="px-[100px]">
-        <div className="grid grid-cols-3 place-items-center place-content-center space-x-20">
+      <div className="px-[20px] lg:px-[100px]">
+        <div className="grid grid-cols-1 gap-20 lg:grid-cols-3 place-items-center place-content-center">
           <div className="flex flex-col items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -89,9 +89,9 @@ function Process() {
             </p>
           </div>
         </div>
-        <div className="flex items-center h-[520px] mt-28 space-x-10">
-          <div className="w-[65%] h-full bg-red-50 rounded-xl"></div>
-          <div className="w-[35%] h-full bg-red-500 rounded-xl"></div>
+        <div className="lg:flex items-center lg:h-[520px] mt-28 space-y-8 lg:space-y-0 lg:space-x-10">
+          <div className="lg:w-[65%] h-[350px] lg:h-full bg-red-50 rounded-xl"></div>
+          <div className="lg:w-[35%] h-[350px] lg:h-full bg-red-500 rounded-xl"></div>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ function Services() {
       <p className="text-sm text-[#CCC] text-center mt-2 leading-6">
         The great stuff we do at Dtory {";)"}
       </p>
-      <div className="px-[100px] grid grid-cols-3 gap-20 mt-16">
+      <div className="px-[40px] lg:px-[100px] grid grid-cols-1 lg:grid-cols-3 gap-20 mt-16">
         <div>
           <div>
             <svg

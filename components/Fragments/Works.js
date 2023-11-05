@@ -3,12 +3,12 @@ import React from "react";
 function Works() {
   return (
     <div>
-      <div className="px-[100px]">
+      <div className="px-[30px] lg:px-[100px]">
         <h3 className="text-[#BFD200] text-sm">OUR WORKS</h3>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
-      <div className="pl-[100px] mt-5">
-        <div className="w-[520px]">
+      <div className="pl-[30px] lg:pl-[100px] mt-5">
+        <div className="w-[93%] lg:w-[520px]">
           <div className="h-[320px] w-full bg-red-100 rounded-md"></div>
           <h2 className="text-[#F0F0F0] text-[20px] font-semibold mt-6">
             Muse Mind
@@ -20,7 +20,7 @@ function Works() {
         </div>
       </div>
 
-      <div className="px-[100px] mt-10 flex space-x-4">
+      <div className="lg:px-[100px] mt-10 flex justify-center lg:justify-start space-x-4">
         <button className="opacity-50">
           <svg
             xmlns="http://www.w3.org/2000/svg"
