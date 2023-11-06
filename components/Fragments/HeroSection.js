@@ -2,8 +2,8 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section className="mt-[160px] lg:mt-[218px] px-[20px] lg:px-[100px]">
-      <h1 className="headingGradient text-[40px] lg:text-[72px] text-center font-bold leading-[50px] lg:leading-[90.36px]">
+    <section className="pt-[160px] lg:pt-[218px] px-[20px] lg:px-[100px] bg-[url('/mesh-1.png')] min-h-[800px]">
+      <h1 className="headingGradient text-[40px] lg:text-[72px] text-center font-bold leading-[50px] lg:leading-[90.36px] relative">
         Every Design Woven <br /> Into A Story
       </h1>
       <p className="text-white text-center mt-7 leading-[24px]">
