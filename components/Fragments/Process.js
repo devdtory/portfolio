@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 function Process() {
   return (
-    <div>
+    <div className="font-mona-sans">
       <h3 className="text-[#BFD200] text-center text-sm">THE PROCESS</h3>
       <h1 className="text-white font-bold text-center text-[40px]">
         How Dtory works?
@@ -97,7 +98,53 @@ function Process() {
               alt=""
             />
           </div>
-          <div className="lg:w-[35%] h-[350px] lg:h-full bg-red-500 rounded-xl"></div>
+          <div className="lg:w-[35%] h-[350px] lg:h-full bg-[#0C0F28] rounded-xl border-d p-[40px]">
+            <h1 className="text-[#EEEDFC] text-[20px]">Tech Stack</h1>
+            <div className="mt-[35px] grid grid-cols-2 gap-[40px] place-content-center place-items-center">
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211321/portfolio/skill_icons_javascript_zhfywh.webp"
+                  className="h-[80px]"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/zoom_c6iljb.webp"
+                  className="h-[80px]"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/asana_xyldxk.webp"
+                  className="h-[80px]"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/notion_mn3yvp.webp"
+                  className="h-[80px]"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/figma_elements_ywgemb.webp"
+                  className="h-[80px]"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/slack_rd0qt8.webp"
+                  className="h-[80px]"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

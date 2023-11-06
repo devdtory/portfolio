@@ -2,7 +2,7 @@ import React from "react";
 
 function Works() {
   return (
-    <div>
+    <div className="font-mona-sans">
       <div className="px-[30px] lg:px-[100px]">
         <h3 className="text-[#BFD200] text-sm">OUR WORKS</h3>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>

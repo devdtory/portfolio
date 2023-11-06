@@ -20,3 +20,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.border-d {
+  border: 1.5px dashed #574ae2;
+}

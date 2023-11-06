@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="fixed top-0 inset-x-0 z-30">
+    <div className="fixed top-0 inset-x-0 z-30 font-mona-sans">
       <div className="h-[90px] lg:h-[112px] bg-[#101010]">
         <div className="w-full px-[30px] lg:px-[100px] h-full flex items-center justify-between">
           <div>

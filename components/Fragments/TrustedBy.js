@@ -2,7 +2,7 @@ import React from "react";
 
 function TrustedBy() {
   return (
-    <section className="bg-[#101010] pt-8 pb-[87px] px-[20px] lg:px-[100px]">
+    <section className="bg-[#101010] pt-8 pb-[87px] px-[20px] lg:px-[100px] font-mona-sans">
       <p className="text-center text-[#A1A1A1]">Trusted by</p>
       <div className="hidden lg:flex justify-evenly mt-[60px]">
         <span>
