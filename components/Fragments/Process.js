@@ -90,7 +90,12 @@ function Process() {
           </div>
         </div>
         <div className="lg:flex items-center lg:h-[520px] mt-28 space-y-8 lg:space-y-0 lg:space-x-10">
-          <div className="lg:w-[65%] h-[350px] lg:h-full bg-red-50 rounded-xl"></div>
+          <div className="lg:w-[65%] h-fit bg-red-50 rounded-xl">
+            <img
+              src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699242958/portfolio/Images_from_Gmail_mkeos0.webp"
+              alt=""
+            />
+          </div>
           <div className="lg:w-[35%] h-[350px] lg:h-full bg-red-500 rounded-xl"></div>
         </div>
       </div>
