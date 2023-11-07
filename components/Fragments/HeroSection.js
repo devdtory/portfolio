@@ -3,11 +3,11 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section className="min-h-[800px] relative font-mona-sans">
+    <section className="min-h-[800px] relative font-mona-sans bg-[#030303]">
       <img
         src="/mesh-1.png"
         alt=""
-        className="absolute inset-0 h-full w-full z-0 opacity-70"
+        className="absolute inset-0 h-full w-full z-0 opacity-100"
       />
       <div className="absolute inset-0 h-full w-full z-20 pt-[160px] lg:pt-[218px] px-[20px] lg:px-[100px]  ">
         <h1 className="headingGradient  font-[1000] font-mona-sans w-fit mx-auto text-[40px] lg:text-[72px] text-center leading-[50px] lg:leading-[90.36px] relative">

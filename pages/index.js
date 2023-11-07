@@ -12,9 +12,8 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <div className="h-[109px]"></div>
+
       <TrustedBy />
-      <div className="h-[100px]"></div>
       <Process />
       <div className="h-[180px] lg:h-[250px]"></div>
       <Services />

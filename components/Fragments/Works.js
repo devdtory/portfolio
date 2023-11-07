@@ -4,7 +4,7 @@ function Works() {
   return (
     <div className="font-mona-sans">
       <div className="px-[30px] lg:px-[100px]">
-        <h3 className="text-[#BFD200] text-sm">OUR WORKS</h3>
+        <h3 className="text-[#BFD200] text-sm tracking-[1.6px]">OUR WORKS</h3>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
       <div className="pl-[30px] lg:pl-[100px] mt-5">

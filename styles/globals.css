@@ -24,3 +24,7 @@ body {
 .border-d {
   border: 1.5px dashed #574ae2;
 }
+
+.process-bg {
+  background: linear-gradient(180deg, #030303 18.75%, rgba(3, 3, 3, 0) 81.77%);
+}

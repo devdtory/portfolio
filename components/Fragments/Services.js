@@ -3,7 +3,9 @@ import React from "react";
 function Services() {
   return (
     <div className="font-mona-sans">
-      <h3 className="text-[#BFD200] text-center text-sm">THE PROCESS</h3>
+      <h3 className="text-[#BFD200] text-center text-sm tracking-[1.6px]">
+        WHAT&apos;S INCLUDED
+      </h3>
       <h1 className="text-white font-bold text-center text-[40px]">Services</h1>
       <p className="text-sm text-[#CCC] text-center mt-2 leading-6">
         The great stuff we do at Dtory {";)"}
