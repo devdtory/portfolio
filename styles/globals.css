@@ -28,3 +28,10 @@ body {
 .process-bg {
   background: linear-gradient(180deg, #030303 18.75%, rgba(3, 3, 3, 0) 81.77%);
 }
+
+.story-gradient {
+  background: linear-gradient(94deg, #978dff 1.65%, #574ae2 86.95%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
