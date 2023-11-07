@@ -100,7 +100,7 @@ function Process() {
               alt=""
             />
           </div>
-          <div className="lg:w-[35%] h-[350px] lg:h-full bg-[#0C0F28] rounded-xl border-d p-[40px]">
+          <div className="lg:w-[35%] lg:h-full h-fit bg-[#0C0F28] rounded-xl border-d p-[40px]">
             <h1 className="text-[#EEEDFC] text-[20px]">Tech Stack</h1>
             <div className="mt-[35px] grid grid-cols-2 gap-[40px] place-content-center place-items-center">
               <div>

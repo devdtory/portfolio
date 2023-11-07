@@ -11,12 +11,15 @@ function HeroSection() {
       />
       <div className="absolute inset-0 h-full w-full z-20 pt-[160px] lg:pt-[218px] px-[20px] lg:px-[100px]  ">
         <h1 className="text-white font-[1000] font-mona-sans w-fit mx-auto text-[40px] lg:text-[72px] text-center leading-[50px] lg:leading-[90.36px] relative">
-          Every Design Woven <br /> Into A{" "}
+          <span className="relative">
+            <span>Every</span>
+            <div className="absolute -top-4 left-0 flex items-center space-x-1">
+              <div className="h-3 w-3 bg-[#BFD200]"></div>
+              <div className="h-3 w-3 bg-[#BFD200]"></div>
+            </div>
+          </span>{" "}
+          Design Woven <br /> Into A{" "}
           <span className="story-gradient">Story</span>
-          <div className="absolute -top-1 left-1 flex items-center space-x-1">
-            <div className="h-3 w-3 bg-[#BFD200]"></div>
-            <div className="h-3 w-3 bg-[#BFD200]"></div>
-          </div>
         </h1>
         <p className="text-white text-center mt-4 leading-[24px] z-30 font-mona-sans">
           We play with colors and elements to create <br /> visually amazing

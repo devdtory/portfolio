@@ -346,9 +346,10 @@ function PeopleSay() {
               </span>
             </div>
             <p className="text-[#333] mt-3 mb-4 text-sm leading-[21px]">
-              Subhankar from Dtory really did an amazing job! I had a very short
-              deadline and he immediately commited to it and came up with a real
-              good design solution. beautifully executed! Thanks a lot!
+              Amazing working with the team {'"Dtory"'},They edited the logo
+              until I was satisfied and are very helpful and patient.Glad I
+              chose them for my brand.Looking forward working with the team in
+              future.
             </p>
             <h2 className="text-[#1B1B1B] mt-auto font-semibold text-sm">
               Joan Boixadós
@@ -428,9 +429,9 @@ function PeopleSay() {
               </span>
             </div>
             <p className="text-[#333] mt-3 mb-4 text-sm leading-[21px]">
-              Subhankar from Dtory really did an amazing job! I had a very short
-              deadline and he immediately commited to it and came up with a real
-              good design solution. beautifully executed! Thanks a lot!
+              Fast, affordable work. I&apos;m a difficult client who demanded
+              several reworks and this wasn&apos;t an issue. Professional
+              service with excellent quality
             </p>
             <h2 className="text-[#1B1B1B] mt-auto font-semibold text-sm">
               Joan Boixadós
