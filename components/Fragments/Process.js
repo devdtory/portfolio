@@ -4,7 +4,9 @@ import React from "react";
 function Process() {
   return (
     <div className="font-mona-sans">
-      <h3 className="text-[#BFD200] text-center text-sm">THE PROCESS</h3>
+      <h3 className="text-[#BFD200] text-center text-sm tracking-[1.4px]">
+        THE PROCESS
+      </h3>
       <h1 className="text-white font-bold text-center text-[40px]">
         How Dtory works?
       </h1>
@@ -31,7 +33,7 @@ function Process() {
                 stroke-linejoin="round"
               />
             </svg>
-            <h2 className="text-white mt-2 text-[18px] font-medium">
+            <h2 className="text-white mt-2 text-[18px] font-mona-sans font-medium">
               Unlimited Creativity
             </h2>
             <p className="text-[#ccc] text-sm text-center mt-2 leading-[21px]">
