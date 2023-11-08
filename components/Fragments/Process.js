@@ -93,10 +93,10 @@ function Process() {
           </div>
         </div>
         <div className="lg:flex lg:h-[520px] mt-28 space-y-8 lg:space-y-0 lg:space-x-10">
-          <div className="lg:w-[65%] h-full">
+          <div className="lg:w-[65%] h-full rounded-lg overflow-hidden border-p">
             <img
               className="h-full w-full object-cover"
-              src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699242958/portfolio/Images_from_Gmail_mkeos0.webp"
+              src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699418701/portfolio/Apps_nsl6jp.png"
               alt=""
             />
           </div>

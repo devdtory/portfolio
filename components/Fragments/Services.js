@@ -666,8 +666,8 @@ function Services() {
           </div>
           <h2 className="text-white text-[32px] font-light mt-2">Marketing</h2>
           <p className="text-[#ccc] mt-2">
-            Empower your brand with our marketing expertise, where your success
-            is our commitment.
+            Looking for someone who will create the Best designs for you?
+            Congratulations, you are at the right place.
           </p>
         </div>
       </div>
