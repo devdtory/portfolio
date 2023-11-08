@@ -23,9 +23,9 @@ export default function Home() {
       <FAQ />
       <div className="h-[250px]"></div>
       <PeopleSay />
-      {/* 
+
       <div className="h-[250px]"></div>
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }
