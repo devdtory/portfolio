@@ -47,7 +47,7 @@ function Layout({ children }) {
   return (
     <div className={`${monaSans.variable}`}>
       <Navbar />
-      <div className="pt-[112px]">{children}</div>
+      <div className="pt-[80px] lg:pt-[112px]">{children}</div>
     </div>
   );
 }
