@@ -3,7 +3,7 @@ import React from "react";
 
 function PeopleSay() {
   return (
-    <div className="min-h-[800px] relative font-mona-sans">
+    <div className="min-h-[1650px] lg:min-h-[800px] h-fit relative font-mona-sans">
       <img
         src="/mesh-2.png"
         className="absolute inset-0 h-full w-full opacity-60"

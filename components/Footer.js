@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#171A33] h-[475px] px-[100px] py-[100px]">
-      <div className="flex w-full">
-        <div className="w-1/2 text-white">
+    <div className="bg-[#171A33] lg:h-[475px] lg:px-[100px] px-[20px] py-[50px] lg:py-[100px]">
+      <div className="lg:flex w-full">
+        <div className="lg:w-1/2 text-white">
           <h1 className="text-5xl font-bold">Lets Talk.</h1>
           <p className="mt-5">hello@dtory.in</p>
           <p className="mt-2">
@@ -12,7 +12,7 @@ function Footer() {
             9002666920/8642014038
           </p>
         </div>
-        <div className="w-1/2 flex justify-end space-x-20 text-white">
+        <div className="lg:w-1/2 lg:flex justify-end space-y-12 mt-16 lg:mt-0 lg:space-x-20 text-white">
           <ul className="space-y-4">
             <li>Dribble</li>
             <li>Instagram</li>
