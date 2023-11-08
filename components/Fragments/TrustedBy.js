@@ -11,32 +11,32 @@ function TrustedBy() {
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/hoot_logo_yo2gvq.webp"
             alt=""
-            className="h-16 mr-16 grayscale object-contain"
+            className="h-10 mr-20 grayscale object-contain"
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/Clients_devpriyangsu_Image_ryuohj.webp"
             alt=""
-            className="h-10 mr-16 grayscale object-contain"
+            className="h-6 mr-20 grayscale object-contain"
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/Level_Box_Games_Logo_w2w23e.webp"
             alt=""
-            className="h-9 mr-16 grayscale object-contain"
+            className="h-6 mr-20 grayscale object-contain"
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/richribbit_t8srjf.webp"
             alt=""
-            className="h-20 mr-16 grayscale object-contain"
+            className="h-12 mr-20 grayscale object-contain"
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/Rocketbird_1_._fuoyin.webp"
             alt=""
-            className="h-14 mr-16 grayscale object-contain"
+            className="h-12 mr-20 grayscale object-contain"
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/froggies_text_logo_ewvxej.webp"
             alt=""
-            className="h-10 mr-16 grayscale object-contain"
+            className="h-8 mr-20 grayscale object-contain"
           />
         </Marquee>
       </div>
@@ -45,32 +45,32 @@ function TrustedBy() {
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/hoot_logo_yo2gvq.webp"
           alt=""
-          className="h-16 mr-16 grayscale object-contain col-span-2"
+          className="h-16 mr-20 grayscale object-contain col-span-2"
         />
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/Clients_devpriyangsu_Image_ryuohj.webp"
           alt=""
-          className="h-10 mr-16 grayscale object-contain"
+          className="h-10 mr-20 grayscale object-contain"
         />
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/Level_Box_Games_Logo_w2w23e.webp"
           alt=""
-          className="h-9 mr-16 grayscale object-contain"
+          className="h-9 mr-20 grayscale object-contain"
         />
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/richribbit_t8srjf.webp"
           alt=""
-          className="h-20 mr-16 grayscale object-contain"
+          className="h-20 mr-20 grayscale object-contain"
         />
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/Rocketbird_1_._fuoyin.webp"
           alt=""
-          className="h-14 mr-16 grayscale object-contain"
+          className="h-14 mr-20 grayscale object-contain"
         />
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/froggies_text_logo_ewvxej.webp"
           alt=""
-          className="h-10 mr-16 grayscale object-contain col-span-2"
+          className="h-10 mr-20 grayscale object-contain col-span-2"
         />
       </div>
     </section>
