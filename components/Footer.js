@@ -15,19 +15,41 @@ function Footer() {
         <div className="lg:w-1/2 lg:flex justify-end space-y-12 mt-16 lg:mt-0 lg:space-x-20 text-white">
           <ul className="space-y-4">
             <li>
-              <a href="https://dribbble.com/Dtory_official">Dribbble</a>
+              <a
+                rel="noopener noreferrer"
+                target={"_blank"}
+                href="https://dribbble.com/Dtory_official"
+              >
+                Dribbble
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/dtory/">Instagram</a>
+              <a
+                rel="noopener noreferrer"
+                target={"_blank"}
+                href="https://www.linkedin.com/company/dtory/"
+              >
+                Instagram
+              </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/dtory_studios/">Linkedin</a>
+              <a
+                rel="noopener noreferrer"
+                target={"_blank"}
+                href="https://www.instagram.com/dtory_studios/"
+              >
+                Linkedin
+              </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://www.instagram.com/dtory_studios/">Discord</a>
-            </li>
+            </li> */}
             <li>
-              <a href="https://www.facebook.com/profile.php?id=61550040305368">
+              <a
+                rel="noopener noreferrer"
+                target={"_blank"}
+                href="https://www.facebook.com/profile.php?id=61550040305368"
+              >
                 Facebook
               </a>
             </li>

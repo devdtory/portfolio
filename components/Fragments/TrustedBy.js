@@ -72,6 +72,16 @@ function TrustedBy() {
           alt=""
           className="h-10 grayscale object-contain col-span-2"
         />
+        <img
+          src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555776/portfolio/Hello_Legal_Logo_afxhpb.webp"
+          alt=""
+          className="h-10 grayscale object-contain col-span-2"
+        />
+        <img
+          src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555775/portfolio/elmo_logo_wogfua.webp"
+          alt=""
+          className="h-10 grayscale object-contain col-span-2"
+        />
       </div>
     </section>
   );
