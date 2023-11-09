@@ -38,6 +38,16 @@ function TrustedBy() {
             alt=""
             className="h-8 mr-20 grayscale object-contain"
           />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555776/portfolio/Hello_Legal_Logo_afxhpb.webp"
+            alt=""
+            className="h-10 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555775/portfolio/elmo_logo_wogfua.webp"
+            alt=""
+            className="h-10 mr-20 grayscale object-contain"
+          />
         </Marquee>
       </div>
 
@@ -70,12 +80,12 @@ function TrustedBy() {
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/froggies_text_logo_ewvxej.webp"
           alt=""
-          className="h-10 grayscale object-contain col-span-2"
+          className="h-10 grayscale object-contain"
         />
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555776/portfolio/Hello_Legal_Logo_afxhpb.webp"
           alt=""
-          className="h-10 grayscale object-contain col-span-2"
+          className="h-10 grayscale object-contain"
         />
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555775/portfolio/elmo_logo_wogfua.webp"
