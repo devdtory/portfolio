@@ -186,9 +186,9 @@ function PeopleSay() {
               quality of work. We&apos;ll happily come back anytime soon.
             </p>
             <h2 className="text-[#1B1B1B] mt-auto font-semibold text-sm">
-              Dennis Kö
+              Emizon
             </h2>
-            <p className="text-[#555555] text-[13px] mt-1">Founder - Hoot</p>
+            <p className="text-[#555555] text-[13px] mt-1">Rocketbird Team</p>
           </div>
           <div className="bg-white rounded-lg p-8 flex flex-col">
             <div className="flex items-center space-x-1">
@@ -352,7 +352,7 @@ function PeopleSay() {
               future.
             </p>
             <h2 className="text-[#1B1B1B] mt-auto font-semibold text-sm">
-              Joan Boixadós
+              JackPeter
             </h2>
           </div>{" "}
           <div className="bg-white rounded-lg p-8 flex flex-col">
@@ -434,7 +434,7 @@ function PeopleSay() {
               service with excellent quality
             </p>
             <h2 className="text-[#1B1B1B] mt-auto font-semibold text-sm">
-              Joan Boixadós
+              Bobinstein
             </h2>
           </div>
         </div>
