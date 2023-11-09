@@ -14,11 +14,23 @@ function Footer() {
         </div>
         <div className="lg:w-1/2 lg:flex justify-end space-y-12 mt-16 lg:mt-0 lg:space-x-20 text-white">
           <ul className="space-y-4">
-            <li>Dribble</li>
-            <li>Instagram</li>
-            <li>Linkedin</li>
-            <li>Discord</li>
-            <li>Facebook</li>
+            <li>
+              <a href="https://dribbble.com/Dtory_official">Dribbble</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/dtory/">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/dtory_studios/">Linkedin</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/dtory_studios/">Discord</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=61550040305368">
+                Facebook
+              </a>
+            </li>
           </ul>
           <ul className="space-y-4">
             <li>About Us</li>
