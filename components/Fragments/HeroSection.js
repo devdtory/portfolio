@@ -3,7 +3,7 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section className="min-h-[700px] relative font-mona-sans bg-[#030303]">
+    <section className="min-h-[700px] relative font-mona-sans bg-[#030303] max-w-[1600px] mx-auto">
       <img
         src="/mesh-1.png"
         alt=""
