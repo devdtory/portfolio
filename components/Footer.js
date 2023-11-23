@@ -8,7 +8,7 @@ function Footer() {
           <h1 className="text-5xl font-bold">Lets Talk.</h1>
           <p className="mt-5">hello@dtory.in</p>
           <p className="mt-2">
-            <span className="font-semibold">Contact</span>: +91
+            <span className="font-semibold">Contact</span>
             9002666920/8642014038
           </p>
         </div>
