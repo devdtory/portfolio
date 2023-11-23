@@ -297,7 +297,10 @@ function Pricing() {
         </div>
       </div>
       <div className="px-[40px] lg:px-[100px] flex justify-center gap-10 mt-10 font-mona-sans place-content-center place-items-center">
-        <div className="w-[800px] h-[215px] bg-gradient-to-br from-[#978DFF] via-transparent to-[#978DFF] rounded-lg p-[1px]">
+        <div className="w-[800px] relative h-[215px] bg-gradient-to-br from-[#978DFF] via-transparent to-[#978DFF] rounded-lg p-[1px]">
+          <div className="absolute top-0 left-6 bg-[#171439] border border-[#978DFF] rounded-full flex items-center text-[#fff] px-[24px] py-[6px] space-x-1 font-medium -translate-y-1/2 text-sm">
+            <span>Free with catalyst</span>
+          </div>
           <div className="h-full w-full bg-black rounded-lg p-[51px]">
             <h1 className="text-center text-white font-semibold text-[24px]">
               Web development
