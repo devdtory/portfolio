@@ -3,7 +3,7 @@ import React from "react";
 
 function Pricing() {
   return (
-    <div className="font-mona-sans">
+    <div className="font-mona-sans overflow-hidden">
       <h3 className="text-[#BFD200] text-center text-sm tracking-[1.6px]">
         WHAT&apos;S INCLUDED
       </h3>
