@@ -11,7 +11,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <HeroSection />
 
       <TrustedBy />
