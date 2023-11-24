@@ -9,7 +9,13 @@ function Works() {
       </div>
       <div className="pl-[30px] lg:pl-[100px] mt-5">
         <div className="w-[93%] lg:w-[520px]">
-          <div className="h-[320px] w-full bg-red-100 rounded-md"></div>
+          <div className="h-[320px] w-full bg-red-100 rounded-md">
+            <img
+              src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1694548471/portfolio/Musemind_logo-0_ghy9li.png"
+              className="h-full w-full object-cover rounded-md"
+              alt=""
+            />
+          </div>
           <h2 className="text-[#F0F0F0] text-[20px] font-semibold mt-6">
             Muse Mind
           </h2>
