@@ -326,7 +326,7 @@ function Pricing() {
           alt=""
         />
         <div className="px-[40px] lg:px-[100px] flex justify-center gap-10 font-mona-sans place-content-center place-items-center">
-          <div className="w-[800px] relative h-[215px] bg-gradient-to-br from-[#978DFF] via-transparent to-[#978DFF] rounded-lg p-[1px]">
+          <div className="w-[800px] relative h-[215px] bg-gradient-to-tr from-[#978DFF] via-transparent to-[#978DFF] rounded-lg p-[1px]">
             <div className="absolute top-0 p-[1px] left-6 bg-gradient-to-r from-[#978DFF] to-transparent rounded-full flex items-center text-[#fff] font-medium -translate-y-1/2 text-sm">
               <div className="w-full h-full px-[24px] py-[10px] rounded-full bg-[#171439]">
                 <span>Free with catalyst</span>

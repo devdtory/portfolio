@@ -27,7 +27,6 @@ export default function Home() {
       <div>
         <PeopleSay />
       </div>
-      <div className="h-[80px]"></div>
       <Footer />
     </main>
   );

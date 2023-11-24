@@ -48,6 +48,46 @@ function TrustedBy() {
             alt=""
             className="h-10 mr-20 grayscale object-contain"
           />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/hoot_logo_yo2gvq.webp"
+            alt=""
+            className="h-10 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/Clients_devpriyangsu_Image_ryuohj.webp"
+            alt=""
+            className="h-6 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/Level_Box_Games_Logo_w2w23e.webp"
+            alt=""
+            className="h-6 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/richribbit_t8srjf.webp"
+            alt=""
+            className="h-12 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/Rocketbird_1_._fuoyin.webp"
+            alt=""
+            className="h-12 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/froggies_text_logo_ewvxej.webp"
+            alt=""
+            className="h-8 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555776/portfolio/Hello_Legal_Logo_afxhpb.webp"
+            alt=""
+            className="h-10 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555775/portfolio/elmo_logo_wogfua.webp"
+            alt=""
+            className="h-10 mr-20 grayscale object-contain"
+          />
         </Marquee>
       </div>
 

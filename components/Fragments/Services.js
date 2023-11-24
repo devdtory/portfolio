@@ -233,11 +233,171 @@ function Services() {
       description:
         "Unlock your buisness's true potential: let us transform your identity into impact.",
     },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+        >
+          <path
+            d="M4.21484 17.543H36.2677V34.994C36.2677 36.5401 35.0142 37.7939 33.4677 37.7939H7.01485C5.46846 37.7939 4.21484 36.5404 4.21484 34.994V17.543Z"
+            stroke="url(#paint0_radial_2527_2468)"
+            stroke-width="2.79998"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M4.20898 17.5492L35.1697 9.25338L33.8262 4.24004C33.4261 2.74635 31.8908 1.85993 30.397 2.26016L4.84554 9.10658C3.35182 9.50681 2.4654 11.0421 2.86563 12.5358L4.20898 17.5492Z"
+            stroke="url(#paint1_radial_2527_2468)"
+            stroke-width="2.79998"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M11.5605 30.6836H15.1424"
+            stroke="url(#paint2_radial_2527_2468)"
+            stroke-width="2.79998"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12.7031 15.2714L14.4941 6.51953"
+            stroke="url(#paint3_radial_2527_2468)"
+            stroke-width="2.79998"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M22.8164 12.5605L24.6074 3.80859"
+            stroke="url(#paint4_radial_2527_2468)"
+            stroke-width="2.79998"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <defs>
+            <radialGradient
+              id="paint0_radial_2527_2468"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(5.93046 19.1898) rotate(35.0267) scale(34.9547 33.035)"
+            >
+              <stop stop-color="#574AE2" />
+              <stop offset="1" stop-color="#978DFF" />
+            </radialGradient>
+            <radialGradient
+              id="paint1_radial_2527_2468"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(5.41796 14.8814) rotate(-20.1685) scale(30.5273 20.4143)"
+            >
+              <stop stop-color="#978DFF" />
+              <stop offset="1" stop-color="#CBC7F6" />
+            </radialGradient>
+            <radialGradient
+              id="paint2_radial_2527_2468"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(11.7523 30.7649) rotate(17.209) scale(3.34855 1.90289)"
+            >
+              <stop stop-color="#574AE2" />
+              <stop offset="1" stop-color="#978DFF" />
+            </radialGradient>
+            <radialGradient
+              id="paint3_radial_2527_2468"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(12.8027 15.7478) rotate(-78.3105) scale(9.67386 4.94217)"
+            >
+              <stop stop-color="#978DFF" />
+              <stop offset="1" stop-color="#CBC7F6" />
+            </radialGradient>
+            <radialGradient
+              id="paint4_radial_2527_2468"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(22.6033 13.7871) rotate(-77.9051) scale(9.35421 4.77887)"
+            >
+              <stop stop-color="#978DFF" />
+              <stop offset="1" stop-color="#CBC7F6" />
+            </radialGradient>
+          </defs>
+        </svg>
+      ),
+      title: "Video Edting",
+      description:
+        "Transforming video footage into artistry and making video stories come to life is kinda our passion ;)",
+    },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+        >
+          <path
+            d="M13.3188 23.3935C11.9154 22.3523 10.7755 20.9967 9.9906 19.4354C9.20566 17.8741 8.79749 16.1506 8.79883 14.4031C8.79883 8.21753 13.8132 3.20312 19.9988 3.20312C26.1844 3.20312 31.1988 8.21753 31.1988 14.4031C31.1988 18.0311 29.4732 21.2567 26.7988 23.3031"
+            stroke="url(#paint0_radial_2527_2485)"
+            stroke-width="3.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M20 14.4023L36 36.0023H4L20 14.4023Z"
+            stroke="url(#paint1_radial_2527_2485)"
+            stroke-width="3.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <defs>
+            <radialGradient
+              id="paint0_radial_2527_2485"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(29.666 19.3359) rotate(-121.139) scale(18.6934 18.7942)"
+            >
+              <stop stop-color="#978DFF" />
+              <stop offset="1" stop-color="#CBC7F6" />
+            </radialGradient>
+            <radialGradient
+              id="paint1_radial_2527_2485"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(7.05231 15.2547) rotate(37.0072) scale(33.5486 32.4479)"
+            >
+              <stop stop-color="#C7C1FF" />
+              <stop offset="1" stop-color="#574AE2" />
+            </radialGradient>
+          </defs>
+        </svg>
+      ),
+      title: "Graphic Design",
+      description:
+        "Transforming video footage into artistry and making video stories come to life is kinda our passion ;)",
+    },
   ];
 
   const ServiceCard = ({ title, description, icon }) => {
     return (
-      <div className="bg-gradient-to-br from-[#978DFF] to-[#978DFF00] w-[398px] rounded-lg p-[1px]">
+      <div className="bg-gradient-to-br from-[#978DFF] to-[#978DFF00] rounded-lg p-[1px]">
         <div className="w-full h-full bg-[#171439] rounded-lg p-8">
           <div>{icon}</div>
           <h1 className="text-white font-semibold text-[24px] mt-6">{title}</h1>
@@ -246,6 +406,7 @@ function Services() {
       </div>
     );
   };
+
   return (
     <div className="font-mona-sans">
       <h3 className="text-[#BFD200] text-center text-sm tracking-[1.6px]">
@@ -255,7 +416,7 @@ function Services() {
       <p className="text-sm text-[#CCC] text-center mt-2 leading-6">
         The great stuff we do at Dtory {";)"}
       </p>
-      <div className="px-[40px] lg:px-[100px] grid grid-cols-1 lg:grid-cols-3 gap-20 mt-16 font-mona-sans">
+      <div className="px-[40px] lg:px-[100px] grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16 font-mona-sans">
         {services.map((service, i) => (
           <ServiceCard
             key={i}

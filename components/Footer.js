@@ -2,13 +2,13 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#171A33] lg:h-[475px] lg:px-[100px] px-[20px] py-[50px] lg:py-[100px]">
+    <div className="bg-[#171A33] lg:h-[475px] lg:px-[100px] px-[20px] py-[50px] lg:py-[100px] font-mona-sans">
       <div className="lg:flex w-full">
         <div className="lg:w-1/2 text-white">
           <h1 className="text-5xl font-bold">Lets Talk.</h1>
           <p className="mt-5">hello@dtory.in</p>
           <p className="mt-2">
-            <span className="font-semibold">Contact</span>
+            <span className="font-semibold">Contact</span> +91
             9002666920/8642014038
           </p>
         </div>
@@ -59,9 +59,9 @@ function Footer() {
             </li>
           </ul>
           <ul className="space-y-4">
-            <li>About Us</li>
+            <li hidden>About Us</li>
             <li>Team</li>
-            <li>Careers</li>
+            <li hidden>Careers</li>
           </ul>
           <ul className="space-y-4">
             <li>Privacy Policy</li>
@@ -70,6 +70,11 @@ function Footer() {
             <li>Sitemap</li>
           </ul>
         </div>
+      </div>
+      <div className="mt-24 h-[1px] w-full bg-[#777777]"></div>
+      <div className="lg:flex lg:items-center lg:justify-between mt-4 text-white space-y-4 lg:space-y-0">
+        <span>© 2023 Dtory - All rights reserved</span>
+        <span className="underline">Subscribe to newsletter</span>
       </div>
     </div>
   );
