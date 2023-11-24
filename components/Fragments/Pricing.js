@@ -12,10 +12,10 @@ function Pricing() {
       <p className="text-sm text-[#CCC] text-center mt-2 leading-6">
         Choose what works best for you!
       </p>
-      <div className="px-[40px] lg:px-[100px] lg:flex lg:justify-center space-y-9 lg:space-y-0 lg:gap-10 mt-16 font-mona-sans relative">
+      <div className="px-[5px] lg:px-[100px] lg:flex lg:justify-center space-y-9 lg:space-y-0 lg:gap-10 mt-16 font-mona-sans relative">
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/Vector_1_._rleqov.webp"
-          className="absolute top-1/2 -left-[7%] h-[900px] object-contain -translate-y-[50%] z-0"
+          className="absolute top-1/2 -left-[7%] h-[900px] object-contain -translate-y-[100%] lg:-translate-y-[50%] z-0"
           alt=""
         />
         <img
@@ -24,7 +24,7 @@ function Pricing() {
           alt=""
         />
 
-        <div className="h-[669px] w-[380px] bg-gradient-to-tr rounded-lg from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]">
+        <div className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-lg from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]">
           <div className="h-full w-full bg-black rounded-lg p-[45px] relative z-10">
             <div className="absolute top-0 right-6 bg-[#AEFB2A] rounded-lg flex items-center text-[#000] px-[10px] py-[6px] space-x-1 font-medium -translate-y-1/2 text-sm">
               <svg
@@ -319,14 +319,14 @@ function Pricing() {
           </div>
         </div>
       </div>
-      <div className="mt-16 relative">
+      <div className="mt-10 lg:mt-16 relative">
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/WhatsApp_web_development_gradient_rieem6.webp"
           className="absolute top-1/2 left-[28%] -rotate-12 h-[430px] object-contain -translate-y-[50%] z-0"
           alt=""
         />
-        <div className="px-[40px] lg:px-[100px] flex justify-center gap-10 font-mona-sans place-content-center place-items-center">
-          <div className="w-[800px] relative h-[215px] bg-gradient-to-tr from-[#978DFF] via-transparent to-[#978DFF] rounded-lg p-[1px]">
+        <div className="px-[5px] lg:px-[100px] flex justify-center font-mona-sans place-content-center place-items-center">
+          <div className="w-full lg:w-[800px] relative h-[215px] bg-gradient-to-tr from-[#978DFF] via-transparent to-[#978DFF] rounded-lg p-[1px]">
             <div className="absolute top-0 p-[1px] left-6 bg-gradient-to-r from-[#978DFF] to-transparent rounded-full flex items-center text-[#fff] font-medium -translate-y-1/2 text-sm">
               <div className="w-full h-full px-[24px] py-[10px] rounded-full bg-[#171439]">
                 <span>Free with catalyst</span>
