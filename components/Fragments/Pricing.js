@@ -24,8 +24,8 @@ function Pricing() {
           alt=""
         />
 
-        <div className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-lg from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]">
-          <div className="h-full w-full bg-black rounded-lg p-[45px] relative z-10">
+        <div className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]">
+          <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative z-10">
             <div className="absolute top-0 right-6 bg-[#AEFB2A] rounded-lg flex items-center text-[#000] px-[10px] py-[6px] space-x-1 font-medium -translate-y-1/2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -188,8 +188,8 @@ function Pricing() {
             </div>
           </div>
         </div>
-        <div className="h-[669px] w-[380px] bg-gradient-to-tr rounded-lg from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]">
-          <div className="h-full w-full bg-black rounded-lg p-[45px] relative">
+        <div className="h-[669px] w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]">
+          <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -326,13 +326,13 @@ function Pricing() {
           alt=""
         />
         <div className="px-[5px] lg:px-[100px] flex justify-center font-mona-sans place-content-center place-items-center">
-          <div className="w-full lg:w-[800px] relative h-[215px] bg-gradient-to-tr from-[#978DFF] via-transparent to-[#978DFF] rounded-lg p-[1px]">
+          <div className="w-full lg:w-[800px] relative h-[215px] bg-gradient-to-tr from-[#978DFF] via-transparent to-[#978DFF] rounded-[16px] p-[1px]">
             <div className="absolute top-0 p-[1px] left-6 bg-gradient-to-r from-[#978DFF] to-transparent rounded-full flex items-center text-[#fff] font-medium -translate-y-1/2 text-sm">
               <div className="w-full h-full px-[24px] py-[10px] rounded-full bg-[#171439]">
                 <span>Free with catalyst</span>
               </div>
             </div>
-            <div className="h-full w-full bg-black rounded-lg py-[51px] px-[20px] lg:p-[51px]">
+            <div className="h-full w-full bg-black rounded-[16px] py-[51px] px-[20px] lg:p-[51px]">
               <h1 className="text-center text-white font-semibold text-[24px]">
                 Web development
               </h1>
