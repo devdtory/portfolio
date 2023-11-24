@@ -332,11 +332,11 @@ function Pricing() {
                 <span>Free with catalyst</span>
               </div>
             </div>
-            <div className="h-full w-full bg-black rounded-lg p-[51px]">
+            <div className="h-full w-full bg-black rounded-lg py-[51px] px-[20px] lg:p-[51px]">
               <h1 className="text-center text-white font-semibold text-[24px]">
                 Web development
               </h1>
-              <p className="text-center leading-6 text-[#E7E7E7] w-[450px] mx-auto text-sm mt-2">
+              <p className="text-center leading-6 text-[#E7E7E7] lg:w-[450px] mx-auto text-sm mt-2">
                 Get your website developed in best frameworks like next.js or
                 even quick developments with Framer.
               </p>
