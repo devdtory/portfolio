@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <main className="overflow-x-hidden">
       <HeroSection />
-
       <TrustedBy />
       <Process />
       <div className="h-[180px] lg:h-[250px]"></div>

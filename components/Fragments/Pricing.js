@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 function Pricing() {
@@ -67,9 +68,14 @@ function Pricing() {
               <span className="text-[48px] font-bold">4998/mo</span>
             </div>
             <p className="text-[#EFEFEF]">Pause or cancel anytime</p>
-            <button className="h-[48px] rounded-lg w-full bg-[#AEFB2A] text-black mt-4 font-semibold">
-              Book a call
-            </button>
+            <Link
+              href={"https://calendly.com/dtory_studios/30min"}
+              target="_blank"
+            >
+              <button className="h-[48px] rounded-lg w-full bg-[#AEFB2A] text-black mt-4 font-semibold">
+                Book a call
+              </button>
+            </Link>
             <div className="my-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -207,9 +213,14 @@ function Pricing() {
               <span className="text-[48px] font-bold">8500+</span>
             </div>
             <p className="text-[#EFEFEF]">Pause or cancel anytime</p>
-            <button className="h-[48px] rounded-lg w-full border border-[#FB5607] text-[#FB5607] mt-4 font-semibold">
-              Book a call
-            </button>
+            <Link
+              href={"https://calendly.com/dtory_studios/30min"}
+              target="_blank"
+            >
+              <button className="h-[48px] rounded-lg w-full border border-[#FB5607] text-[#FB5607] mt-4 font-semibold">
+                Book a call
+              </button>
+            </Link>
             <div className="my-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
