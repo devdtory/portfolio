@@ -73,8 +73,8 @@ function Footer() {
       </div>
       <div className="mt-24 h-[1px] w-full bg-[#777777]"></div>
       <div className="lg:flex lg:items-center lg:justify-between mt-4 text-white space-y-4 lg:space-y-0">
-        <span>© 2023 Dtory - All rights reserved</span>
-        <span className="underline">Subscribe to newsletter</span>
+        <p>© 2023 Dtory - All rights reserved</p>
+        <p className="underline">Subscribe to newsletter</p>
       </div>
     </div>
   );
