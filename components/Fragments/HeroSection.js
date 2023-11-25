@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
-    <section className="min-h-[700px] relative font-mona-sans bg-[#030303]">
+    <section className="min-h-[700px] h-screen relative font-mona-sans bg-[#030303]">
       <img
         src="/mesh-1.png"
         alt=""
@@ -15,6 +15,9 @@ function HeroSection() {
           initial={{ opacity: 0, y: 100, scale: 2 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.8 }}
+          viewport={{
+            once: true,
+          }}
           className="text-white font-[1000] font-mona-sans w-fit mx-auto text-[40px] lg:text-[72px] text-center leading-[50px] lg:leading-[90.36px] relative"
         >
           <span className="relative">
