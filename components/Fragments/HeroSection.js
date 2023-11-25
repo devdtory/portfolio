@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
-    <section className="min-h-[700px] h-screen relative font-mona-sans bg-[#030303]">
+    <section className="min-h-[700px] lg:h-screen relative font-mona-sans bg-[#030303]">
       <img
         src="/mesh-1.png"
         alt=""
