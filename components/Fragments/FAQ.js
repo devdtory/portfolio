@@ -3,7 +3,7 @@ import React from "react";
 
 function FAQ() {
   return (
-    <div className="font-mona-sans">
+    <div id="faq" className="font-mona-sans pt-[100px] lg:pt-[180px]">
       <h1 className="text-white font-bold text-center text-[40px]">FAQs</h1>
       <div className="px-[30px] lg:px-[250px] mt-7 font-mona-sans">
         <Accordion isCompact={false} className="space-y-2">

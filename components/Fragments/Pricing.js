@@ -18,7 +18,7 @@ function Pricing() {
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="w-fit h-fit relative"
+          className="w-full h-fit relative"
         >
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/Vector_1_._rleqov.webp"
@@ -31,7 +31,7 @@ function Pricing() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]"
           >
-            <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative z-10">
+            <div className="h-full w-full bg-black rounded-[16px] py-[40px] px-7 lg:p-[45px] relative z-10">
               <div className="absolute top-0 right-6 bg-[#AEFB2A] rounded-lg flex items-center text-[#000] px-[10px] py-[6px] space-x-1 font-medium -translate-y-1/2 text-sm">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -200,15 +200,15 @@ function Pricing() {
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="h-fit w-fit relative"
+          className="h-fit w-full relative"
         >
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/WhatsApp_Catalyst_Gradient_ppm7mt.webp"
             className="absolute top-1/2 -right-2 translate-x-1/2 h-[900px] object-contain -translate-y-[50%] z-0"
             alt=""
           />
-          <div className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]">
-            <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative">
+          <div className="h-[669px] w-full lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]">
+            <div className="h-full w-full bg-black rounded-[16px] py-[40px] px-7 lg:p-[45px] relative">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

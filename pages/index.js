@@ -18,12 +18,8 @@ export default function Home() {
       <Services />
       <Pricing />
       <Works />
-      <div className="h-[150px]"></div>
       <FAQ />
-      <div className="h-[250px]"></div>
-      <div>
-        <PeopleSay />
-      </div>
+      <PeopleSay />
       <Footer />
     </main>
   );

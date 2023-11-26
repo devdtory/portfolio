@@ -27,8 +27,16 @@ function Navbar() {
                   Portfolio
                 </Link>
               </li>
-              <li>FAQs</li>
-              <li>Happy Clients</li>
+              <li>
+                <Link scroll href="#faq">
+                  FAQs
+                </Link>
+              </li>
+              <li>
+                <Link scroll href="#happyclients">
+                  Happy Clients
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
