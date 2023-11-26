@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Services() {
   const services = [
@@ -395,15 +396,20 @@ function Services() {
     },
   ];
 
-  const ServiceCard = ({ title, description, icon }) => {
+  const ServiceCard = ({ title, description, icon, index }) => {
     return (
-      <div className="bg-gradient-to-br from-[#978DFF] to-[#978DFF00] rounded-lg p-[1px]">
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, delay: index * 0.2 }}
+        className="bg-gradient-to-br from-[#978DFF] to-[#978DFF00] rounded-lg p-[1px]"
+      >
         <div className="w-full h-full bg-[#171439] rounded-lg p-8">
           <div>{icon}</div>
           <h1 className="text-white font-semibold text-[24px] mt-6">{title}</h1>
           <p className="text-[#CCC] text-sm mt-2 leading-6">{description}</p>
         </div>
-      </div>
+      </motion.div>
     );
   };
 
@@ -423,6 +429,7 @@ function Services() {
             title={service.title}
             description={service.description}
             icon={service.icon}
+            index={i}
           />
         ))}
       </div>

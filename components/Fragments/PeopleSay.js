@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { motion } from "framer-motion";
 
 function PeopleSay() {
   return (
-    <div className="min-h-[1650px] lg:min-h-[800px] h-fit relative font-mona-sans">
+    <div className="min-h-[1850px] lg:min-h-[800px] h-fit relative font-mona-sans">
       <img
         src="/mesh-2.png"
         className="absolute inset-0 h-full w-full opacity-60 object-cover"
@@ -17,7 +18,12 @@ function PeopleSay() {
           Really fast responses. They finished a project with a 2 day window{" "}
           <br /> in about an hour
         </p>
-        <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-5">
+        <motion.div
+          initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="mt-8 grid grid-cols-1 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-5"
+        >
           <div className="lg:col-span-2 bg-white rounded-lg p-8">
             <div className="flex items-center space-x-1">
               <span>
@@ -437,7 +443,7 @@ function PeopleSay() {
               Bobinstein
             </h2>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

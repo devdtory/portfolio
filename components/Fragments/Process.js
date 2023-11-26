@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-
+import { motion } from "framer-motion";
 function Process() {
   return (
     <div className="font-mona-sans process-bg pt-[100px]">
@@ -17,7 +17,12 @@ function Process() {
       <div className="h-[100px]"></div>
       <div className="px-[20px] lg:px-[100px]">
         <div className="grid grid-cols-1 gap-20 lg:grid-cols-3 place-items-center place-content-center">
-          <div className="flex flex-col items-center justify-center">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="flex flex-col items-center justify-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="66"
@@ -39,8 +44,13 @@ function Process() {
             <p className="text-[#ccc] text-sm text-center mt-2 leading-[21px]">
               Contact us with your requirements and begin your journey with us.{" "}
             </p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex flex-col items-center justify-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="66"
@@ -61,8 +71,13 @@ function Process() {
               Experience the speed of light with our swift deliveries, often as
               quick as 24-48 hours, tailored to your project&apos;s needs
             </p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex flex-col items-center justify-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="66"
@@ -90,17 +105,27 @@ function Process() {
               We are consistent with a 100% satisfaction rate. Your happiness is
               our priority.
             </p>
-          </div>
+          </motion.div>
         </div>
         <div className="lg:flex lg:h-[520px] mt-28 space-y-8 lg:space-y-0 lg:space-x-10">
-          <div className="lg:w-[65%] h-full rounded-lg overflow-hidden border-p">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="lg:w-[65%] h-full rounded-lg overflow-hidden border-p"
+          >
             <img
               className="h-full w-full object-cover"
               src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699418701/portfolio/Apps_nsl6jp.png"
               alt=""
             />
-          </div>
-          <div className="lg:w-[35%] lg:h-full h-fit bg-[#0C0F28] rounded-xl border-d p-[40px]">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="lg:w-[35%] lg:h-full h-fit bg-[#0C0F28] rounded-xl border-d p-[40px]"
+          >
             <h1 className="text-[#EEEDFC] text-[20px]">Tech Stack</h1>
             <div className="mt-[35px] grid grid-cols-2 gap-[40px] place-content-center place-items-center">
               <div>
@@ -146,7 +171,7 @@ function Process() {
                 />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

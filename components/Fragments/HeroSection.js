@@ -14,7 +14,7 @@ function HeroSection() {
         <motion.h1
           initial={{ opacity: 0, y: 100, scale: 2 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.5 }}
           viewport={{
             once: true,
           }}
@@ -33,16 +33,21 @@ function HeroSection() {
         <motion.p
           initial={{ opacity: 0, y: 30, scale: 1.3 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           className="text-white text-center mt-4 leading-[24px] z-30 font-mona-sans"
         >
           We play with colors and elements to create <br /> visually amazing
           shit for your brand.
         </motion.p>
         <div className="flex items-center justify-center mt-8 z-20">
-          <button className="radialG h-[48px] px-[75px] flex items-center text-white rounded-lg border-[1px] border-[#BAB4FF]">
+          <motion.button
+            initial={{ opacity: 0, y: 30, scale: 1.3 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="radialG h-[48px] px-[75px] flex items-center text-white rounded-lg border-[1px] border-[#BAB4FF]"
+          >
             Contact Us
-          </button>
+          </motion.button>
         </div>
       </div>
     </section>

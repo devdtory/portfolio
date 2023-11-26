@@ -5,12 +5,7 @@ import { motion } from "framer-motion";
 
 function TrustedBy() {
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 200 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="bg-[#101010] pt-8 pb-[87px] px-[20px] font-mona-sans"
-    >
+    <section className="bg-[#101010] pt-8 pb-[87px] px-[20px] font-mona-sans">
       <p className="text-center text-[#A1A1A1]">Trusted by</p>
       <div className="hidden lg:flex justify-evenly mt-[60px]">
         <Marquee>
@@ -139,7 +134,7 @@ function TrustedBy() {
           className="h-10 grayscale object-contain col-span-2"
         />
       </div>
-    </motion.section>
+    </section>
   );
 }
 

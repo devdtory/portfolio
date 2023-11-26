@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 function Pricing() {
   return (
@@ -24,7 +25,12 @@ function Pricing() {
           alt=""
         />
 
-        <div className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]">
+        <motion.div
+          initial={{ opacity: 0, x: 200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]"
+        >
           <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative z-10">
             <div className="absolute top-0 right-6 bg-[#AEFB2A] rounded-lg flex items-center text-[#000] px-[10px] py-[6px] space-x-1 font-medium -translate-y-1/2 text-sm">
               <svg
@@ -187,8 +193,13 @@ function Pricing() {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="h-[669px] w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]"
+        >
           <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative">
             <div>
               <svg
@@ -317,9 +328,14 @@ function Pricing() {
               </ul>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
-      <div className="mt-10 lg:mt-16 relative">
+      <motion.div
+        initial={{ opacity: 0, y: 200 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="mt-10 lg:mt-16 relative"
+      >
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/WhatsApp_web_development_gradient_rieem6.webp"
           className="absolute top-1/2 left-[28%] -rotate-12 h-[430px] object-contain -translate-y-[50%] z-0"
@@ -347,7 +363,7 @@ function Pricing() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
