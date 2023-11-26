@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Pricing() {
   return (
-    <div className="font-mona-sans">
+    <div className="font-mona-sans pt-[90px] lg:pt-[180px]">
       <h3 className="text-[#BFD200] text-center text-sm tracking-[1.6px]">
         WHAT&apos;S INCLUDED
       </h3>
@@ -26,9 +26,9 @@ function Pricing() {
         />
 
         <motion.div
-          initial={{ opacity: 0, x: 200 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
           className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]"
         >
           <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative z-10">
@@ -195,9 +195,9 @@ function Pricing() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: -200 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
           className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]"
         >
           <div className="h-full w-full bg-black rounded-[16px] p-[45px] relative">
@@ -331,9 +331,9 @@ function Pricing() {
         </motion.div>
       </div>
       <motion.div
-        initial={{ opacity: 0, y: 200 }}
+        initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         className="mt-10 lg:mt-16 relative"
       >
         <img

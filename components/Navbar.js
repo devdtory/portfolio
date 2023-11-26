@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 function Navbar() {
@@ -10,11 +11,16 @@ function Navbar() {
             <img src="/logoPrimary.svg" className="h-9 lg:h-11" alt="" />
           </div>
           <div className="hidden lg:block">
-            <ul className="flex items-center space-x-[60px] text-white">
-              <li>Services</li>
-              <li>Dtory</li>
+            <ul className="flex items-center space-x-[60px] text-[#EBEBEB]">
+              <li>
+                <Link scroll href="#services">
+                  Services
+                </Link>
+              </li>
+              <li>Pricing</li>
               <li>Portfolio</li>
-              <li>Tools</li>
+              <li>FAQs</li>
+              <li>Happy Clients</li>
             </ul>
           </div>
           <div>

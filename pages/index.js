@@ -15,9 +15,7 @@ export default function Home() {
       <HeroSection />
       <TrustedBy />
       <Process />
-      <div className="h-[180px] lg:h-[250px]"></div>
       <Services />
-      <div className="h-[185px]"></div>
       <Pricing />
       <div className="h-[185px]"></div>
       <Works />

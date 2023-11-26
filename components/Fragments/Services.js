@@ -414,7 +414,7 @@ function Services() {
   };
 
   return (
-    <div className="font-mona-sans">
+    <div id="services" className="font-mona-sans pt-[100px] lg:pt-[180px]">
       <h3 className="text-[#BFD200] text-center text-sm tracking-[1.6px]">
         WHAT&apos;S INCLUDED
       </h3>

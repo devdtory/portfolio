@@ -6,6 +6,10 @@ body {
   background: #101010;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .radialG {
   background: radial-gradient(
     762.45% 138.31% at 4.44% 0%,
