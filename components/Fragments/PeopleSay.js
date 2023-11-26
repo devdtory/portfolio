@@ -11,7 +11,7 @@ function PeopleSay() {
           className="absolute inset-0 h-full w-full opacity-60 object-cover z-0"
           alt=""
         />
-        <div className="h-full w-full z-20 relative pb-28">
+        <div className="h-full w-full z-20 relative pb-28 px-6">
           <h1 className="text-white font-bold text-center text-[40px]">
             What people say
           </h1>
@@ -23,7 +23,7 @@ function PeopleSay() {
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="mt-8 grid grid-cols-1 lg:grid-cols-3 px-[20px] lg:px-[100px] gap-5"
+            className="mt-8 grid grid-cols-1 lg:grid-cols-3 px-[5px] lg:px-[100px] gap-5"
           >
             <div className="lg:col-span-2 bg-white rounded-lg p-8">
               <div className="flex items-center space-x-1">
