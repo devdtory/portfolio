@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -60,7 +61,9 @@ function Footer() {
           </ul>
           <ul className="space-y-4">
             <li hidden>About Us</li>
-            <li>Team</li>
+            <li>
+              <Link href={"/team"}>Team</Link>
+            </li>
             <li hidden>Careers</li>
           </ul>
           <ul className="space-y-4">
