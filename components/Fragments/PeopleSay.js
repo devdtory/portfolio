@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 function PeopleSay() {
   return (
-    <div id="happyclients" className="  lg:pt-[180px] pt-[100px]">
-      <div className="min-h-[2450px] lg:min-h-[800px] h-fit relative font-mona-sans">
+    <div id="happyclients" className=" lg:pt-[180px] pt-[100px]">
+      <div className="h-fit font-mona-sans relative">
         <img
           src="/mesh-2.png"
-          className="absolute inset-0 h-full w-full opacity-60 object-cover"
+          className="absolute inset-0 h-full w-full opacity-60 object-cover z-0"
           alt=""
         />
-        <div className="absolute inset-0 h-full w-full">
+        <div className="h-full w-full z-20 relative pb-28">
           <h1 className="text-white font-bold text-center text-[40px]">
             What people say
           </h1>

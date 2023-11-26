@@ -13,7 +13,7 @@ function Pricing() {
       <p className="text-sm text-[#CCC] text-center mt-2 leading-6">
         Choose what works best for you!
       </p>
-      <div className="px-[5px] lg:px-[100px] lg:flex lg:justify-center space-y-9 lg:space-y-0 lg:gap-10 mt-16 font-mona-sans relative">
+      <div className="px-[20px] lg:px-[100px] lg:flex lg:justify-center space-y-9 lg:space-y-0 lg:gap-10 mt-16 font-mona-sans relative">
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -22,7 +22,7 @@ function Pricing() {
         >
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/Vector_1_._rleqov.webp"
-            className="absolute top-1/2 -left-2 -translate-x-1/2 h-[900px] object-contain -translate-y-[100%] lg:-translate-y-[50%] z-0"
+            className="absolute top-1/2 -left-2 -translate-x-1/2 h-[900px] object-contain -translate-y-[50%] lg:-translate-y-[50%] z-0"
             alt=""
           />
           <motion.div
@@ -350,7 +350,7 @@ function Pricing() {
           className="absolute top-1/2 left-[28%] -rotate-12 h-[430px] object-contain -translate-y-[50%] z-0"
           alt=""
         />
-        <div className="px-[5px] lg:px-[100px] flex justify-center font-mona-sans place-content-center place-items-center">
+        <div className="px-[20px] lg:px-[100px] flex justify-center font-mona-sans place-content-center place-items-center">
           <div className="w-full lg:w-[800px] relative h-[215px] bg-gradient-to-tr from-[#978DFF] via-transparent to-[#978DFF] rounded-[16px] p-[1px]">
             <div className="absolute top-0 p-[1px] left-6 bg-gradient-to-r from-[#978DFF] to-transparent rounded-full flex items-center text-[#fff] font-medium -translate-y-1/2 text-sm">
               <div className="w-full h-full px-[24px] py-[10px] rounded-full bg-[#171439]">

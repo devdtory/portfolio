@@ -422,7 +422,7 @@ function Services() {
       <p className="text-sm text-[#CCC] text-center mt-2 leading-6">
         The great stuff we do at Dtory {";)"}
       </p>
-      <div className="px-[40px] lg:px-[100px] grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16 font-mona-sans">
+      <div className="px-[20px] lg:px-[100px] grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16 font-mona-sans">
         {services.map((service, i) => (
           <ServiceCard
             key={i}
