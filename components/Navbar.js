@@ -99,7 +99,7 @@ function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -200 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-30 bg-black/70 h-full w-full"
+            className="fixed inset-0 z-30 bg-black/70 h-full w-full lg:hidden"
           >
             <div className="w-full bg-[#0B0B0B] mt-[80px] lg:mt-[112px] py-[40px] px-[30px]">
               <ul className="text-white space-y-10 font-mona-sans">
