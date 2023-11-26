@@ -84,21 +84,7 @@ function Pricing() {
                   Book a call
                 </button>
               </Link>
-              <div className="my-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="292"
-                  height="2"
-                  viewBox="0 0 292 2"
-                  fill="none"
-                >
-                  <path
-                    d="M1 1L291 1.00003"
-                    stroke="#3C3C3C"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </div>
+              <div className="my-8 h-[1px] bg-[#3C3C3C]"></div>
               <div>
                 <h2 className="text-white font-semibold">Whats included:</h2>
                 <ul className="mt-4 space-y-3">
@@ -244,21 +230,7 @@ function Pricing() {
                   Book a call
                 </button>
               </Link>
-              <div className="my-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="292"
-                  height="2"
-                  viewBox="0 0 292 2"
-                  fill="none"
-                >
-                  <path
-                    d="M1 1L291 1.00003"
-                    stroke="#3C3C3C"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </div>
+              <div className="my-8 h-[1px] bg-[#3C3C3C]"></div>
               <div>
                 <h2 className="text-white font-semibold">Whats included:</h2>
                 <ul className="mt-4 space-y-3">
