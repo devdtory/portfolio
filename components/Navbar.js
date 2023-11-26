@@ -23,30 +23,35 @@ function Navbar() {
             </div>
             <div className="hidden lg:block">
               <ul className="flex items-center space-x-[60px] text-[#EBEBEB]">
-                <li>
+                <li className="relative group cursor-pointer">
                   <Link scroll href="#services">
                     Services
                   </Link>
+                  <div className="w-0 group-hover:w-full h-[1px] bg-[#EBEBEB] absolute -bottom-2 inset-x-0 transition-all"></div>
                 </li>
-                <li>
+                <li className="relative group cursor-pointer">
                   <Link scroll href="#pricing">
                     Pricing
                   </Link>
+                  <div className="w-0 group-hover:w-full h-[1px] bg-[#EBEBEB] absolute -bottom-2 inset-x-0 transition-all"></div>
                 </li>
-                <li>
+                <li className="relative group cursor-pointer">
                   <Link scroll href="#portfolio">
                     Portfolio
                   </Link>
+                  <div className="w-0 group-hover:w-full h-[1px] bg-[#EBEBEB] absolute -bottom-2 inset-x-0 transition-all"></div>
                 </li>
-                <li>
+                <li className="relative group cursor-pointer">
                   <Link scroll href="#faq">
                     FAQs
                   </Link>
+                  <div className="w-0 group-hover:w-full h-[1px] bg-[#EBEBEB] absolute -bottom-2 inset-x-0 transition-all"></div>
                 </li>
-                <li>
+                <li className="relative group cursor-pointer">
                   <Link scroll href="#happyclients">
                     Happy Clients
                   </Link>
+                  <div className="w-0 group-hover:w-full h-[1px] bg-[#EBEBEB] absolute -bottom-2 inset-x-0 transition-all"></div>
                 </li>
               </ul>
             </div>
