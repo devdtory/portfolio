@@ -17,8 +17,16 @@ function Navbar() {
                   Services
                 </Link>
               </li>
-              <li>Pricing</li>
-              <li>Portfolio</li>
+              <li>
+                <Link scroll href="#pricing">
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link scroll href="#portfolio">
+                  Portfolio
+                </Link>
+              </li>
               <li>FAQs</li>
               <li>Happy Clients</li>
             </ul>

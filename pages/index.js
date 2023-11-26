@@ -17,7 +17,6 @@ export default function Home() {
       <Process />
       <Services />
       <Pricing />
-      <div className="h-[185px]"></div>
       <Works />
       <div className="h-[150px]"></div>
       <FAQ />
