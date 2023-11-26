@@ -71,7 +71,9 @@ function Pricing() {
               <p className="text-[#EFEFEF] mt-2">Perfect for bigger projects</p>
               <div className="flex items-center text-[#AEFB2A] mt-2">
                 <span className="font-bold mr-2">$</span>
-                <span className="text-[38px] font-[1000]">4998/mo</span>
+                <span className="text-[38px]  lg:text-[48px] font-[1000]">
+                  4998/mo
+                </span>
               </div>
               <p className="text-[#EFEFEF]">Pause or cancel anytime</p>
               <Link
@@ -229,7 +231,9 @@ function Pricing() {
               <p className="text-[#EFEFEF] mt-2">Custom web/apps</p>
               <div className="flex items-center text-[#FB5607] mt-2">
                 <span className="font-bold mr-2">$</span>
-                <span className="text-[38px] font-[1000]">8500+</span>
+                <span className="text-[38px] lg:text-[48px] font-[1000]">
+                  8500+
+                </span>
               </div>
               <p className="text-[#EFEFEF]">Pause or cancel anytime</p>
               <Link
