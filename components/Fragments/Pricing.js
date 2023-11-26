@@ -18,7 +18,7 @@ function Pricing() {
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="w-full h-fit relative"
+          className="lg:w-fit w-full h-fit relative"
         >
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/Vector_1_._rleqov.webp"
@@ -200,7 +200,7 @@ function Pricing() {
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="h-fit w-full relative"
+          className="h-fit w-full lg:w-fit relative"
         >
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/WhatsApp_Catalyst_Gradient_ppm7mt.webp"
