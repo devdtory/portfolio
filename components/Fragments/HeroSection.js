@@ -41,7 +41,7 @@ function HeroSection() {
             initial={{ opacity: 0, y: 30, scale: 1.3 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="radialG group h-[48px] w-[220px] px-6 hidden lg:flex items-center text-white rounded-lg relative overflow-hidden  border-[1px] border-[#BAB4FF]"
+            className="radialG group h-[48px] w-[180px] lg:w-[210px] px-6 hidden lg:flex items-center text-white rounded-lg relative overflow-hidden  border-[1px] border-[#BAB4FF]"
           >
             <div className="absolute inset-0 h-full w-full group-hover:-translate-x-[0%] rounded-lg -translate-x-[100%] bg-[#B4AEF6] transition-all"></div>
             <div className="absolute inset-0 h-full w-full flex items-center justify-center group-hover:text-black transition-all">

@@ -18,9 +18,9 @@ function Navbar() {
       <div className="fixed top-0 inset-x-0 z-40 font-mona-sans">
         <div className="h-[80px] lg:h-[112px] bg-[#101010]">
           <div className="w-full px-[30px] lg:px-[100px] h-full flex items-center justify-between">
-            <div>
+            <Link href={"/"}>
               <img src="/logoPrimary.svg" className="h-9 lg:h-11" alt="" />
-            </div>
+            </Link>
             <div className="hidden lg:block">
               <ul className="flex items-center space-x-[60px] text-[#EBEBEB]">
                 <li className="relative group cursor-pointer">
