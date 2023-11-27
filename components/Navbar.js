@@ -80,8 +80,11 @@ function Navbar() {
                   </svg>
                 )}
               </button>
-              <button className="radialG h-[48px] px-6 hidden lg:flex items-center text-white rounded-lg">
-                Contact us
+              <button className="radialG group h-[48px] w-[140px] px-6 hidden lg:flex items-center text-white rounded-lg relative overflow-hidden">
+                <div className="absolute inset-0 h-full w-full group-hover:-translate-x-[0%] rounded-lg -translate-x-[100%] bg-[#B4AEF6] transition-all"></div>
+                <div className="absolute inset-0 h-full w-full flex items-center justify-center group-hover:text-black transition-all">
+                  Contact us
+                </div>
               </button>
             </div>
           </div>
