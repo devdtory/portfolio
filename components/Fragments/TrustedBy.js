@@ -15,6 +15,11 @@ function TrustedBy() {
             className="h-10 mr-20 grayscale object-contain"
           />
           <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701083782/portfolio/Meme_Alliance_Logo_k1apae.webp"
+            className="h-8 grayscale object-contain col-span-2"
+            alt=""
+          />
+          <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/Clients_devpriyangsu_Image_ryuohj.webp"
             alt=""
             className="h-6 mr-20 grayscale object-contain"
@@ -53,6 +58,11 @@ function TrustedBy() {
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/hoot_logo_yo2gvq.webp"
             alt=""
             className="h-10 mr-20 grayscale object-contain"
+          />
+          <img
+            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701083782/portfolio/Meme_Alliance_Logo_k1apae.webp"
+            className="h-8 grayscale object-contain col-span-2"
+            alt=""
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/Clients_devpriyangsu_Image_ryuohj.webp"
@@ -98,6 +108,7 @@ function TrustedBy() {
           alt=""
           className="h-16 grayscale object-contain col-span-2"
         />
+
         <img
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211401/portfolio/Clients_devpriyangsu_Image_ryuohj.webp"
           alt=""
@@ -132,6 +143,11 @@ function TrustedBy() {
           src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699555775/portfolio/elmo_logo_wogfua.webp"
           alt=""
           className="h-10 grayscale object-contain col-span-2"
+        />
+        <img
+          src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701083782/portfolio/Meme_Alliance_Logo_k1apae.webp"
+          className="h-10 grayscale object-contain col-span-2"
+          alt=""
         />
       </div>
     </section>

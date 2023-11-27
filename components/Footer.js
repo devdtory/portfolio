@@ -27,10 +27,10 @@ function Footer() {
             </li>
             <li>
               <a
+                href="https://www.instagram.com/dtory_studios/"
                 className="block"
                 rel="noopener noreferrer"
                 target={"_blank"}
-                href="https://www.linkedin.com/company/dtory/"
               >
                 Instagram
               </a>
@@ -40,7 +40,7 @@ function Footer() {
                 className="block"
                 rel="noopener noreferrer"
                 target={"_blank"}
-                href="https://www.instagram.com/dtory_studios/"
+                href="https://www.linkedin.com/company/dtory/"
               >
                 Linkedin
               </a>

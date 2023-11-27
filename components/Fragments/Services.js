@@ -392,7 +392,7 @@ function Services() {
       ),
       title: "Graphic Design",
       description:
-        "Transforming video footage into artistry and making video stories come to life is kinda our passion ;)",
+        "Looking for someone who will create the Best designs for you? Congratulations, you are at the right place.",
     },
   ];
 
