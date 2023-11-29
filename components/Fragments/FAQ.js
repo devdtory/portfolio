@@ -71,6 +71,25 @@ function FAQ() {
               for support and maintenance after completion of the project.
             </p>
           </AccordionItem>
+          <AccordionItem
+            className="border-b border-[#D6D6D6]"
+            key="4"
+            aria-label="01. UX / Wireframing"
+            title={
+              <div className="flex items-center text-xl font-semibold text-white">
+                Do you offer ongoing support and maintenance after the project
+                is completed?
+              </div>
+            }
+          >
+            <p className="pb-4 text-left leading-7 text-neutral-300 -mt-2">
+              An individual full-time designer will charge around $100k/annually
+              whereas we charge according to the work. Also we have multiple
+              services and individuals who are expert in their own respective
+              fields. So to summarise, this is like a great package for your
+              brand with everything included in a perfect budget fit.
+            </p>
+          </AccordionItem>
         </Accordion>
       </div>
     </div>

@@ -16,7 +16,7 @@ function TrustedBy() {
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701083782/portfolio/Meme_Alliance_Logo_k1apae.webp"
-            className="h-8 grayscale object-contain col-span-2"
+            className="h-8 mr-20 grayscale object-contain col-span-2"
             alt=""
           />
           <img
@@ -61,7 +61,7 @@ function TrustedBy() {
           />
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701083782/portfolio/Meme_Alliance_Logo_k1apae.webp"
-            className="h-8 grayscale object-contain col-span-2"
+            className="h-8 mr-20 grayscale object-contain col-span-2"
             alt=""
           />
           <img
