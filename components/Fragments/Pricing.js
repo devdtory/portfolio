@@ -29,7 +29,7 @@ function Pricing() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="h-[669px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]"
+            className="h-[655px] lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#AEFB2A]/50 via-transparent to-[#AEFB2A]/50 p-[1px]"
           >
             <div className="h-full w-full bg-black rounded-[16px] py-[40px] px-7 lg:p-[45px] relative z-10">
               <div className="absolute top-0 right-6 bg-[#AEFB2A] rounded-lg flex items-center text-[#000] px-[10px] py-[6px] space-x-1 font-medium -translate-y-1/2 text-sm">
@@ -72,15 +72,14 @@ function Pricing() {
               <div className="flex items-center text-[#AEFB2A] mt-2">
                 <span className="font-bold mr-2">$</span>
                 <span className="text-[38px]  lg:text-[48px] font-[1000]">
-                  4998/mo
+                  4998+
                 </span>
               </div>
-              <p className="text-[#EFEFEF]">Pause or cancel anytime</p>
               <Link
                 href={"https://calendly.com/dtory_studios/30min"}
                 target="_blank"
               >
-                <button className="h-[48px] rounded-lg w-full bg-[#AEFB2A] text-black mt-4 font-semibold">
+                <button className="h-[48px] rounded-lg w-full hover:brightness-75 bg-[#AEFB2A] text-black mt-4 font-semibold transition-all">
                   Book a call
                 </button>
               </Link>
@@ -101,7 +100,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>One request at a time</span>
+                    <span>High-quality UI/UX</span>
                   </li>
                   <li className="flex items-center space-x-2 text-white text-sm">
                     <svg
@@ -116,7 +115,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>Unlimited designs</span>
+                    <span>Branding</span>
                   </li>
                   <li className="flex items-center space-x-2 text-white text-sm">
                     <svg
@@ -131,7 +130,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>Mobile/Web App Designs</span>
+                    <span>Mobile/Web app design</span>
                   </li>
                   <li className="flex items-center space-x-2 text-white text-sm">
                     <svg
@@ -146,37 +145,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>Branding Services</span>
-                  </li>
-                  <li className="flex items-center space-x-2 text-white text-sm">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="17"
-                      viewBox="0 0 16 17"
-                      fill="none"
-                    >
-                      <path
-                        d="M14.0465 3.98582C14.1828 4.13065 14.256 4.32367 14.25 4.52245C14.244 4.72123 14.1593 4.90948 14.0145 5.04582L6.08455 12.5198C5.92289 12.6721 5.70808 12.755 5.48606 12.7509C5.26405 12.7468 5.05245 12.6559 4.89655 12.4978L2.21655 9.77782C2.14558 9.70809 2.08919 9.62494 2.05067 9.5332C2.01216 9.44147 1.99227 9.34299 1.99219 9.24349C1.9921 9.144 2.01181 9.04548 2.05017 8.95368C2.08853 8.86188 2.14477 8.77863 2.21562 8.70878C2.28647 8.63892 2.37051 8.58387 2.46284 8.54681C2.55518 8.50975 2.65396 8.49144 2.75344 8.49293C2.85293 8.49442 2.95112 8.5157 3.0423 8.55551C3.13348 8.59532 3.21583 8.65288 3.28455 8.72482L5.51855 10.9918L12.9865 3.95382C13.1314 3.81753 13.3244 3.74434 13.5232 3.75034C13.722 3.75634 13.9102 3.84105 14.0465 3.98582Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span>Easy Credit Card payments</span>
-                  </li>
-                  <li className="flex items-center space-x-2 text-white text-sm">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="17"
-                      viewBox="0 0 16 17"
-                      fill="none"
-                    >
-                      <path
-                        d="M14.0465 3.98582C14.1828 4.13065 14.256 4.32367 14.25 4.52245C14.244 4.72123 14.1593 4.90948 14.0145 5.04582L6.08455 12.5198C5.92289 12.6721 5.70808 12.755 5.48606 12.7509C5.26405 12.7468 5.05245 12.6559 4.89655 12.4978L2.21655 9.77782C2.14558 9.70809 2.08919 9.62494 2.05067 9.5332C2.01216 9.44147 1.99227 9.34299 1.99219 9.24349C1.9921 9.144 2.01181 9.04548 2.05017 8.95368C2.08853 8.86188 2.14477 8.77863 2.21562 8.70878C2.28647 8.63892 2.37051 8.58387 2.46284 8.54681C2.55518 8.50975 2.65396 8.49144 2.75344 8.49293C2.85293 8.49442 2.95112 8.5157 3.0423 8.55551C3.13348 8.59532 3.21583 8.65288 3.28455 8.72482L5.51855 10.9918L12.9865 3.95382C13.1314 3.81753 13.3244 3.74434 13.5232 3.75034C13.722 3.75634 13.9102 3.84105 14.0465 3.98582Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span>Pause or cancel anytime</span>
+                    <span>Brand kit</span>
                   </li>
                 </ul>
               </div>
@@ -195,7 +164,7 @@ function Pricing() {
             className="absolute top-1/2 -right-2 translate-x-1/2 h-[900px] object-contain -translate-y-[50%] z-0"
             alt=""
           />
-          <div className="h-[669px] w-full lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]">
+          <div className="h-[655px] w-full lg:w-[380px] bg-gradient-to-tr rounded-[16px] from-[#FB5607]/50 via-transparent to-[#FB5607]/50 p-[1px]">
             <div className="h-full w-full bg-black rounded-[16px] py-[40px] px-7 lg:p-[45px] relative">
               <div>
                 <svg
@@ -221,12 +190,11 @@ function Pricing() {
                   8500+
                 </span>
               </div>
-              <p className="text-[#EFEFEF]">Pause or cancel anytime</p>
               <Link
                 href={"https://calendly.com/dtory_studios/30min"}
                 target="_blank"
               >
-                <button className="h-[48px] rounded-lg w-full border border-[#FB5607] text-[#FB5607] mt-4 font-semibold">
+                <button className="h-[48px] rounded-lg w-full hover:bg-[#FB5607] hover:text-black border border-[#FB5607] text-[#FB5607] mt-4 font-semibold transition-all">
                   Book a call
                 </button>
               </Link>
@@ -247,7 +215,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>One request at a time</span>
+                    <span>Website Development</span>
                   </li>
                   <li className="flex items-center space-x-2 text-white text-sm">
                     <svg
@@ -262,7 +230,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>Unlimited designs</span>
+                    <span>High-quality UI/UX with prototype</span>
                   </li>
                   <li className="flex items-center space-x-2 text-white text-sm">
                     <svg
@@ -277,7 +245,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>Mobile/Web App Designs</span>
+                    <span>Mobile/Web apps </span>
                   </li>
                   <li className="flex items-center space-x-2 text-white text-sm">
                     <svg
@@ -292,7 +260,7 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>Branding Services</span>
+                    <span>Assets and elements</span>
                   </li>
                   <li className="flex items-center space-x-2 text-white text-sm">
                     <svg
@@ -307,7 +275,22 @@ function Pricing() {
                         fill="white"
                       />
                     </svg>
-                    <span>Easy Credit Card payments</span>
+                    <span>Branding</span>
+                  </li>
+                  <li className="flex items-center space-x-2 text-white text-sm">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                    >
+                      <path
+                        d="M14.0465 3.98582C14.1828 4.13065 14.256 4.32367 14.25 4.52245C14.244 4.72123 14.1593 4.90948 14.0145 5.04582L6.08455 12.5198C5.92289 12.6721 5.70808 12.755 5.48606 12.7509C5.26405 12.7468 5.05245 12.6559 4.89655 12.4978L2.21655 9.77782C2.14558 9.70809 2.08919 9.62494 2.05067 9.5332C2.01216 9.44147 1.99227 9.34299 1.99219 9.24349C1.9921 9.144 2.01181 9.04548 2.05017 8.95368C2.08853 8.86188 2.14477 8.77863 2.21562 8.70878C2.28647 8.63892 2.37051 8.58387 2.46284 8.54681C2.55518 8.50975 2.65396 8.49144 2.75344 8.49293C2.85293 8.49442 2.95112 8.5157 3.0423 8.55551C3.13348 8.59532 3.21583 8.65288 3.28455 8.72482L5.51855 10.9918L12.9865 3.95382C13.1314 3.81753 13.3244 3.74434 13.5232 3.75034C13.722 3.75634 13.9102 3.84105 14.0465 3.98582Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span>Usability Testing</span>
                   </li>
                 </ul>
               </div>
