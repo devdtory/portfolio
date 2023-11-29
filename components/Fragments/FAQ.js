@@ -73,12 +73,11 @@ function FAQ() {
           </AccordionItem>
           <AccordionItem
             className="border-b border-[#D6D6D6]"
-            key="4"
+            key="5"
             aria-label="01. UX / Wireframing"
             title={
               <div className="flex items-center text-xl font-semibold text-white">
-                Do you offer ongoing support and maintenance after the project
-                is completed?
+                Why should I not hire an individual designer instead ?
               </div>
             }
           >
