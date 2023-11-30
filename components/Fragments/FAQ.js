@@ -9,19 +9,23 @@ function FAQ() {
         <Accordion isCompact={false} className="space-y-2">
           <AccordionItem
             className="border-b border-[#D6D6D6]"
-            key="1"
+            key="5"
             aria-label="01. UX / Wireframing"
             title={
               <div className="flex items-center text-xl font-semibold text-white">
-                What is the refund policy ?
+                Why should I not hire an individual designer instead ?
               </div>
             }
           >
             <p className="pb-4 text-left leading-7 text-neutral-300 -mt-2">
-              Owing to the superior quality of the work and time put in, we do
-              not entertain refund requests.
+              An individual full-time designer will charge around $100k/annually
+              whereas we charge according to the work. Also we have multiple
+              services and individuals who are expert in their own respective
+              fields. So to summarise, this is like a great package for your
+              brand with everything included in a perfect budget fit.
             </p>
           </AccordionItem>
+
           <AccordionItem
             className="border-b border-[#D6D6D6]"
             key="2"
@@ -73,20 +77,17 @@ function FAQ() {
           </AccordionItem>
           <AccordionItem
             className="border-b border-[#D6D6D6]"
-            key="5"
+            key="1"
             aria-label="01. UX / Wireframing"
             title={
               <div className="flex items-center text-xl font-semibold text-white">
-                Why should I not hire an individual designer instead ?
+                What is the refund policy ?
               </div>
             }
           >
             <p className="pb-4 text-left leading-7 text-neutral-300 -mt-2">
-              An individual full-time designer will charge around $100k/annually
-              whereas we charge according to the work. Also we have multiple
-              services and individuals who are expert in their own respective
-              fields. So to summarise, this is like a great package for your
-              brand with everything included in a perfect budget fit.
+              Owing to the superior quality of the work and time put in, we do
+              not entertain refund requests.
             </p>
           </AccordionItem>
         </Accordion>
