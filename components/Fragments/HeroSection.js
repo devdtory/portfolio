@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -37,17 +38,19 @@ function HeroSection() {
           shit for your brand.
         </motion.p>
         <div className="flex items-center justify-center mt-8 z-20">
-          <motion.button
-            initial={{ opacity: 0, y: 30, scale: 1.3 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="radialG group h-[48px] w-[180px] lg:w-[210px] px-6 flex items-center text-white rounded-lg relative overflow-hidden"
-          >
-            <div className="absolute inset-0 h-full w-full group-hover:-translate-x-[0%] rounded-lg -translate-x-[100%] bg-[#B4AEF6] transition-all"></div>
-            <div className="absolute inset-0 h-full w-full flex items-center justify-center group-hover:text-black transition-all">
-              Contact us
-            </div>
-          </motion.button>
+          <Link href={"/#pricing"}>
+            <motion.button
+              initial={{ opacity: 0, y: 30, scale: 1.3 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="radialG group h-[48px] w-[180px] lg:w-[210px] px-6 flex items-center text-white rounded-lg relative overflow-hidden"
+            >
+              <div className="absolute inset-0 h-full w-full group-hover:-translate-x-[0%] rounded-lg -translate-x-[100%] bg-[#B4AEF6] transition-all"></div>
+              <div className="absolute inset-0 h-full w-full flex items-center justify-center group-hover:text-black transition-all">
+                Contact us
+              </div>
+            </motion.button>
+          </Link>
         </div>
       </div>
     </section>
