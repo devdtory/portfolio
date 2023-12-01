@@ -1,13 +1,34 @@
 import { Button, Input } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
+import toast from "react-hot-toast";
 
 function Footer() {
   const [isPopupOpen, setIsPopupOpen] = React.useState(false);
   const [email, setEmail] = React.useState("");
   const [loading, setLoading] = React.useState(false);
 
-  const handleSubmit = async (e) => {};
+  const handleSubmit = async (e) => {
+    if (email === "") {
+      alert("Please enter your email");
+      return;
+    }
+    setLoading(true);
+    await fetch(
+      "https://script.google.com/macros/s/AKfycbyP_IlfbcJsKvCG8L38iveQnpzDTmKC28zFttFYbP9jamXGQy9kXeSZzC0wrUUMpSC8kg/exec",
+      {
+        method: "POST",
+        body: JSON.stringify({
+          email: email,
+        }),
+      }
+    ).then((res) => {
+      toast.success("Subscribed successfully");
+      setLoading(false);
+      setIsPopupOpen(false);
+      setEmail("");
+    });
+  };
 
   return (
     <div className="bg-[#171A33] lg:h-[475px] lg:px-[100px] px-[20px] py-[50px] lg:py-[100px] font-mona-sans">
@@ -92,12 +113,12 @@ function Footer() {
         </button>
       </div>
       {isPopupOpen && (
-        <div className="fixed z-40 inset-0 bg-black/70 h-full w-full flex backdrop-blur-sm lg:items-center justify-center font-mona-sans">
-          <div className="bg-[#171A33] rounded-lg p-10 lg:p-10 lg:w-[500px]">
+        <div className="fixed z-40 inset-0 bg-black/70 h-full w-full flex backdrop-blur-sm items-center justify-center font-mona-sans">
+          <div className="bg-[#171A33] h-fit rounded-lg p-6 lg:p-10 w-[93%] lg:w-[500px]">
             <h className="text-2xl font-semibold text-white/50">
               <span className="text-[#fff]">Subscribe</span> to our newsletter
             </h>
-            <p className="text-white/50 text-xs mt-2">
+            <p className="text-white/50 text-xs mt-4">
               We will send you updates on new products and projects.
             </p>
 

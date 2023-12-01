@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import localFont from "@next/font/local";
+import { Toaster } from "react-hot-toast";
 
 const monaSans = localFont({
   src: [
@@ -48,6 +49,7 @@ function Layout({ children }) {
     <div className={`${monaSans.variable}`}>
       <Navbar />
       <div className="pt-[80px] lg:pt-[112px]">{children}</div>
+      <Toaster />
     </div>
   );
 }
