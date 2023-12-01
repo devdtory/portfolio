@@ -6,7 +6,7 @@ function Works() {
   const [scroll, setScroll] = React.useState(1);
   const Card = ({ img, title, desc }) => {
     return (
-      <div className="w-[93%] lg:w-[520px] shrink-0 pcard snap-center snap-proximity snap-always">
+      <div className="w-[100%] md:w-[400px] lg:w-[520px] shrink-0 pcard snap-center snap-proximity snap-always mr-16">
         <div className="h-[320px] w-full bg-red-100 rounded-md">
           <img
             src={img}
@@ -31,7 +31,7 @@ function Works() {
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
 
-      <div className="px-[30px] lg:px-[100px] mt-5 space-x-10 flex whitespace-nowrap overflow-auto scrollbar-hide snap-x lg:snap-none snap-mandatory snap-always">
+      <div className="px-[30px] worksContainer lg:px-[100px] mt-5 flex overflow-x-auto scroll-smooth scrollbar-hide">
         {works.map((work, i) => (
           <Card
             key={i}
@@ -43,7 +43,16 @@ function Works() {
       </div>
 
       <div className="lg:px-[100px] mt-10 flex justify-center lg:justify-start space-x-4">
-        <button className="opacity-50">
+        <button
+          onClick={() => {
+            console.log("clicked");
+            let container = document.querySelector(".worksContainer");
+            let width = container.clientWidth;
+            console.log(width, container.scrollLeft);
+            container.scrollLeft = container.scrollLeft - width;
+          }}
+          className="opacity-50"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -63,7 +72,15 @@ function Works() {
             />
           </svg>
         </button>
-        <button>
+        <button
+          onClick={() => {
+            console.log("clicked");
+            let container = document.querySelector(".worksContainer");
+            let width = container.clientWidth;
+            console.log(width, container.scrollLeft);
+            container.scrollLeft = container.scrollLeft + width;
+          }}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
