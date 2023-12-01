@@ -1,29 +1,46 @@
+/* eslint-disable @next/next/no-img-element */
+import { works } from "@/static/works";
 import React from "react";
 
 function Works() {
+  const [pos, setPos] = React.useState(1);
+  const Card = ({ img, title, desc }) => {
+    return (
+      <div className="w-[93%] lg:w-[520px] shrink-0 pcard transition-all">
+        <div className="h-[320px] w-full bg-red-100 rounded-md">
+          <img
+            src={img}
+            className="h-full w-full object-cover rounded-md"
+            alt=""
+          />
+        </div>
+        <h2 className="text-[#F0F0F0] text-[20px] font-semibold mt-6 whitespace-normal">
+          {title}
+        </h2>
+        <p className="text-[#ccc] text-sm leading-6 mt-2 whitespace-normal">
+          {desc}
+        </p>
+      </div>
+    );
+  };
+
   return (
     <div id="portfolio" className="font-mona-sans pt-[100px] lg:pt-[180px]">
       <div className="px-[30px] lg:px-[100px]">
         <h3 className="text-[#BFD200] text-sm tracking-[1.6px]">OUR WORKS</h3>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
-      <div className="pl-[30px] lg:pl-[100px] mt-5">
-        <div className="w-[93%] lg:w-[520px]">
-          <div className="h-[320px] w-full bg-red-100 rounded-md">
-            <img
-              src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1694548471/portfolio/Musemind_logo-0_ghy9li.png"
-              className="h-full w-full object-cover rounded-md"
-              alt=""
-            />
-          </div>
-          <h2 className="text-[#F0F0F0] text-[20px] font-semibold mt-6">
-            Muse Mind
-          </h2>
-          <p className="text-[#ccc] mt-2">
-            This is a branding for a blog website - Musemind. The logo has two
-            {"‘M’"} and and bookmark in the middle which makes it so unique.
-          </p>
-        </div>
+
+      <div className="pl-[30px] lg:pl-[100px] mt-5 space-x-10 flex  whitespace-nowrap overflow-auto scrollbar-hide">
+        {works.map((work, i) => (
+          <Card
+            key={i}
+            img={work.image}
+            title={work.title}
+            desc={work.description}
+          />
+        ))}
+        <div className="w-[50px]"></div>
       </div>
 
       <div className="lg:px-[100px] mt-10 flex justify-center lg:justify-start space-x-4">
@@ -47,7 +64,33 @@ function Works() {
             />
           </svg>
         </button>
-        <button>
+        <button
+          onClick={() => {
+            // translate all cards to left
+
+            // if pos is 1, then do nothing
+
+            // else set pos to pos - 1
+
+            // if pos is 1, then disable left button
+
+            // else enable left button
+
+            // enable right button
+
+            let cards = document.querySelectorAll(".pcard");
+
+            cards.forEach((card) => {
+              try {
+                console.log(card);
+              } catch (error) {
+                console.log(error);
+                w;
+              }
+            });
+            setPos(pos + 1);
+          }}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
