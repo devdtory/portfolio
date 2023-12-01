@@ -30,7 +30,7 @@ function Works() {
         <h3 className="text-[#BFD200] text-sm tracking-[1.6px]">OUR WORKS</h3>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
-      <div className="pl-[30px] lg:pl-[100px] mt-5 space-x-10 flex whitespace-nowrap overflow-auto scrollbar-hide snap-x snap-mandatory snap-always">
+      <div className="pl-[30px] lg:pl-[100px] mt-5 space-x-10 flex whitespace-nowrap overflow-auto scrollbar-hide snap-x lg:snap-none snap-mandatory snap-always">
         {works.map((work, i) => (
           <Card
             key={i}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 function Footer() {
+  const [isPopupOpen, setIsPopupOpen] = React.useState(false);
   return (
     <div className="bg-[#171A33] lg:h-[475px] lg:px-[100px] px-[20px] py-[50px] lg:py-[100px] font-mona-sans">
       <div className="lg:flex w-full">
