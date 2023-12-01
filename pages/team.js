@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Footer from "@/components/Footer";
+import Head from "next/head";
 import React from "react";
 
 function Team() {
@@ -84,6 +85,9 @@ function Team() {
   };
   return (
     <div className="font-mona-sans min-h-screen">
+      <Head>
+        <title>Team: Dtory | Team</title>
+      </Head>
       <p className="text-[#B4AEF6] text-center text-sm tracking-[1.6px] mt-16">
         THE SQUAD
       </p>

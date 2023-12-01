@@ -1,8 +1,14 @@
+import { Button, Input } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
 
 function Footer() {
   const [isPopupOpen, setIsPopupOpen] = React.useState(false);
+  const [email, setEmail] = React.useState("");
+  const [loading, setLoading] = React.useState(false);
+
+  const handleSubmit = async (e) => {};
+
   return (
     <div className="bg-[#171A33] lg:h-[475px] lg:px-[100px] px-[20px] py-[50px] lg:py-[100px] font-mona-sans">
       <div className="lg:flex w-full">
@@ -78,8 +84,51 @@ function Footer() {
       <div className="mt-24 h-[1px] w-full bg-[#777777]"></div>
       <div className="lg:flex lg:items-center lg:justify-between mt-4 text-white space-y-4 lg:space-y-0">
         <p>© 2023 Dtory - All rights reserved</p>
-        <p className="underline">Subscribe to newsletter</p>
+        <button
+          onClick={() => setIsPopupOpen(true)}
+          className="underline cursor-pointer"
+        >
+          Subscribe to newsletter
+        </button>
       </div>
+      {isPopupOpen && (
+        <div className="fixed z-40 inset-0 bg-black/70 h-full w-full flex backdrop-blur-sm lg:items-center justify-center font-mona-sans">
+          <div className="bg-[#171A33] rounded-lg p-10 lg:p-10 lg:w-[500px]">
+            <h className="text-2xl font-semibold text-white/50">
+              <span className="text-[#fff]">Subscribe</span> to our newsletter
+            </h>
+            <p className="text-white/50 text-xs mt-2">
+              We will send you updates on new products and projects.
+            </p>
+
+            <input
+              type="email"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="bg-[#0d0e1d] h-12 w-full border border-white/10 rounded-md mt-7 outline-none px-5 text-white"
+              name=""
+              id=""
+            />
+
+            <div className="flex items-center justify-end mt-10">
+              <button
+                onClick={() => setIsPopupOpen(false)}
+                className="text-white/60 mr-10 hover:text-white transition-all text-sm"
+              >
+                Cancel
+              </button>
+              <Button
+                isLoading={loading}
+                onClick={handleSubmit}
+                className="rounded-md"
+              >
+                Subscribe
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

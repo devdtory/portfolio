@@ -30,7 +30,8 @@ function Works() {
         <h3 className="text-[#BFD200] text-sm tracking-[1.6px]">OUR WORKS</h3>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
-      <div className="pl-[30px] lg:pl-[100px] mt-5 space-x-10 flex whitespace-nowrap overflow-auto scrollbar-hide snap-x lg:snap-none snap-mandatory snap-always">
+
+      <div className="px-[30px] lg:px-[100px] mt-5 space-x-10 flex whitespace-nowrap overflow-auto scrollbar-hide snap-x lg:snap-none snap-mandatory snap-always">
         {works.map((work, i) => (
           <Card
             key={i}
@@ -39,21 +40,10 @@ function Works() {
             desc={work.description}
           />
         ))}
-        <div className="w-[50px]"></div>
       </div>
 
       <div className="lg:px-[100px] mt-10 flex justify-center lg:justify-start space-x-4">
-        <button
-          //   onClick={() => {
-          //     document.querySelectorAll(".pcard").forEach((el) => {
-          //       let x = scroll * 100;
-          //       let translatePos = `-translate-x-[500px]`;
-
-          //     });
-          //     setScroll(scroll + 1);
-          //   }}
-          className="opacity-50"
-        >
+        <button className="opacity-50">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
