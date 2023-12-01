@@ -3,10 +3,10 @@ import { works } from "@/static/works";
 import React from "react";
 
 function Works() {
-  const [pos, setPos] = React.useState(1);
+  const [scroll, setScroll] = React.useState(1);
   const Card = ({ img, title, desc }) => {
     return (
-      <div className="w-[93%] lg:w-[520px] shrink-0 pcard transition-all">
+      <div className="w-[93%] lg:w-[520px] shrink-0 pcard snap-center snap-proximity snap-always">
         <div className="h-[320px] w-full bg-red-100 rounded-md">
           <img
             src={img}
@@ -30,8 +30,7 @@ function Works() {
         <h3 className="text-[#BFD200] text-sm tracking-[1.6px]">OUR WORKS</h3>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
-
-      <div className="pl-[30px] lg:pl-[100px] mt-5 space-x-10 flex  whitespace-nowrap overflow-auto scrollbar-hide">
+      <div className="pl-[30px] lg:pl-[100px] mt-5 space-x-10 flex whitespace-nowrap overflow-auto scrollbar-hide snap-x snap-mandatory snap-always">
         {works.map((work, i) => (
           <Card
             key={i}
@@ -44,7 +43,17 @@ function Works() {
       </div>
 
       <div className="lg:px-[100px] mt-10 flex justify-center lg:justify-start space-x-4">
-        <button className="opacity-50">
+        <button
+          //   onClick={() => {
+          //     document.querySelectorAll(".pcard").forEach((el) => {
+          //       let x = scroll * 100;
+          //       let translatePos = `-translate-x-[500px]`;
+
+          //     });
+          //     setScroll(scroll + 1);
+          //   }}
+          className="opacity-50"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -64,33 +73,7 @@ function Works() {
             />
           </svg>
         </button>
-        <button
-          onClick={() => {
-            // translate all cards to left
-
-            // if pos is 1, then do nothing
-
-            // else set pos to pos - 1
-
-            // if pos is 1, then disable left button
-
-            // else enable left button
-
-            // enable right button
-
-            let cards = document.querySelectorAll(".pcard");
-
-            cards.forEach((card) => {
-              try {
-                console.log(card);
-              } catch (error) {
-                console.log(error);
-                w;
-              }
-            });
-            setPos(pos + 1);
-          }}
-        >
+        <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
