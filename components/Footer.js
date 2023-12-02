@@ -94,7 +94,7 @@ function Footer() {
             </li>
             <li hidden>Careers</li>
           </ul>
-          <ul className="space-y-4 opacity-0">
+          <ul className="space-y-4">
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
             <li>Refund Policy</li>
