@@ -27,7 +27,7 @@ function Works() {
   return (
     <div id="portfolio" className="font-mona-sans pt-[100px] lg:pt-[180px]">
       <div className="px-[30px] lg:px-[100px]">
-        <h3 className="text-[#BFD200] text-sm tracking-[1.6px]">OUR WORKS</h3>
+        <h2 className="text-[#BFD200] text-sm tracking-[1.6px]">OUR WORKS</h2>
         <h1 className="text-white font-bold text-[40px]">Portfolio </h1>
       </div>
 

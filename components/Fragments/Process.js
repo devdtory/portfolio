@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 function Process() {
   return (
     <div className="font-mona-sans process-bg pt-[100px]">
-      <h3 className="text-[#BFD200] text-center text-sm tracking-[1.6px]">
+      <h2 className="text-[#BFD200] text-center text-sm tracking-[1.6px]">
         THE PROCESS
-      </h3>
+      </h2>
       <h1 className="text-white font-bold text-center text-[40px]">
         How Dtory works?
       </h1>
