@@ -128,7 +128,7 @@ function Process() {
           >
             <img
               className="h-full w-full object-cover"
-              src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699418701/portfolio/Apps_nsl6jp.png"
+              src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703661843/apps.webp"
               alt=""
             />
           </motion.div>
@@ -145,42 +145,42 @@ function Process() {
             <div className="mt-[35px] grid grid-cols-2 gap-[40px] place-content-center place-items-center">
               <div>
                 <img
-                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211321/portfolio/skill_icons_javascript_zhfywh.webp"
+                  src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703661840/javascript-logo.webp"
                   className="h-[80px]"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/zoom_c6iljb.webp"
+                  src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703661840/zoom-logo.webp"
                   className="h-[80px]"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/asana_xyldxk.webp"
+                  src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703661840/notion-logo.webp"
                   className="h-[80px]"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/notion_mn3yvp.webp"
+                  src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703661844/asana-logo.webp"
                   className="h-[80px]"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/figma_elements_ywgemb.webp"
+                  src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703661840/figma-logo.webp"
                   className="h-[80px]"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211296/portfolio/slack_rd0qt8.webp"
+                  src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703661840/slack-logo.webp"
                   className="h-[80px]"
                   alt=""
                 />
