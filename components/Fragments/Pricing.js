@@ -15,6 +15,9 @@ function Pricing() {
       </p>
       <div className="px-[20px] lg:px-[100px] lg:flex lg:justify-center space-y-9 lg:space-y-0 lg:gap-10 mt-16 font-mona-sans relative">
         <motion.div
+          viewport={{
+            once: true,
+          }}
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -26,6 +29,9 @@ function Pricing() {
             alt=""
           />
           <motion.div
+            viewport={{
+              once: true,
+            }}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -158,6 +164,9 @@ function Pricing() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className="h-fit w-full lg:w-fit relative"
+          viewport={{
+            once: true,
+          }}
         >
           <img
             src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/WhatsApp_Catalyst_Gradient_ppm7mt.webp"
@@ -302,6 +311,9 @@ function Pricing() {
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
+        viewport={{
+          once: true,
+        }}
         className="mt-10 lg:mt-16 relative"
       >
         <img

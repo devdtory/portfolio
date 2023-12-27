@@ -399,6 +399,9 @@ function Services() {
   const ServiceCard = ({ title, description, icon, index }) => {
     return (
       <motion.div
+        viewport={{
+          once: true,
+        }}
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: index * 0.2 }}

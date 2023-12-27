@@ -18,6 +18,9 @@ function Process() {
       <div className="px-[20px] lg:px-[100px]">
         <div className="grid grid-cols-1 gap-20 lg:grid-cols-3 place-items-center place-content-center">
           <motion.div
+            viewport={{
+              once: true,
+            }}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -46,6 +49,9 @@ function Process() {
             </p>
           </motion.div>
           <motion.div
+            viewport={{
+              once: true,
+            }}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -73,6 +79,9 @@ function Process() {
             </p>
           </motion.div>
           <motion.div
+            viewport={{
+              once: true,
+            }}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -109,6 +118,9 @@ function Process() {
         </div>
         <div className="lg:flex lg:h-[520px] mt-28 space-y-8 lg:space-y-0 lg:space-x-10">
           <motion.div
+            viewport={{
+              once: true,
+            }}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -121,6 +133,9 @@ function Process() {
             />
           </motion.div>
           <motion.div
+            viewport={{
+              once: true,
+            }}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}

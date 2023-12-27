@@ -23,6 +23,9 @@ function PeopleSay() {
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            viewport={{
+              once: true,
+            }}
             className="mt-8 grid grid-cols-1 lg:grid-cols-3 px-[5px] lg:px-[100px] gap-5"
           >
             <div className="lg:col-span-2 bg-white rounded-lg p-8">

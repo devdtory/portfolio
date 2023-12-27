@@ -16,6 +16,9 @@ function HeroSection() {
           initial={{ opacity: 0, y: 100, scale: 2 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.5 }}
+          viewport={{
+            once: true,
+          }}
           className="text-white font-[1000] font-mona-sans w-fit mx-auto text-[40px] lg:text-[72px] text-center leading-[50px] lg:leading-[90.36px] relative"
         >
           <span className="relative">
@@ -29,6 +32,9 @@ function HeroSection() {
           <span className="story-gradient">Story</span>
         </motion.h1>
         <motion.p
+          viewport={{
+            once: true,
+          }}
           initial={{ opacity: 0, y: 30, scale: 1.3 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -40,6 +46,9 @@ function HeroSection() {
         <div className="flex items-center justify-center mt-8 z-20">
           <Link href={"/#pricing"}>
             <motion.button
+              viewport={{
+                once: true,
+              }}
               initial={{ opacity: 0, y: 30, scale: 1.3 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
