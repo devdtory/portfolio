@@ -130,7 +130,7 @@ function TrustedBy() {
           className="h-14 grayscale object-contain"
         />
         <img
-          src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1699211400/portfolio/froggies_text_logo_ewvxej.webp"
+          src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703786395/mwmsdnrd2yvsftxfnjvq.webp"
           alt=""
           className="h-10 grayscale object-contain"
         />

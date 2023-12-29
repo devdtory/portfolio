@@ -24,7 +24,7 @@ function Pricing() {
           className="lg:w-fit w-full h-fit relative"
         >
           <img
-            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/Vector_1_._rleqov.webp"
+            src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703786661/d1o2eil3fqxo8auw1ks9.webp"
             className="absolute top-1/2 -left-2 -translate-x-1/2 h-[900px] object-contain -translate-y-[50%] lg:-translate-y-[50%] z-0"
             alt=""
           />
@@ -169,7 +169,7 @@ function Pricing() {
           }}
         >
           <img
-            src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/WhatsApp_Catalyst_Gradient_ppm7mt.webp"
+            src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703786661/rr4pfxahr174xpxq12hl.webp"
             className="absolute top-1/2 -right-2 translate-x-1/2 h-[900px] object-contain -translate-y-[50%] z-0"
             alt=""
           />
@@ -317,7 +317,7 @@ function Pricing() {
         className="mt-10 lg:mt-16 relative"
       >
         <img
-          src="https://res.cloudinary.com/dxfa5a3ya/image/upload/v1700762847/portfolio/WhatsApp_web_development_gradient_rieem6.webp"
+          src="https://res.cloudinary.com/davpsqfkq/image/upload/v1703786660/h0jz4k0uurnzpu3b4p2j.webp"
           className="absolute top-1/2 left-[28%] -rotate-12 h-[430px] object-contain -translate-y-[50%] z-0"
           alt=""
         />
