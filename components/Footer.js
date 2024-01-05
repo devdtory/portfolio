@@ -95,9 +95,14 @@ function Footer() {
             <li hidden>Careers</li>
           </ul>
           <ul className="space-y-4">
-            <li>Privacy Policy</li>
-            <li>Terms of Service</li>
-            <li>Refund Policy</li>
+            <li>
+              <Link
+                href={"https://dtory-studios.gitbook.io/terms-of-service/"}
+                target={"_blank"}
+              >
+                Terms of Service
+              </Link>
+            </li>
             <li>Sitemap</li>
           </ul>
         </div>
