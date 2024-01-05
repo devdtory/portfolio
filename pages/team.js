@@ -9,56 +9,56 @@ function Team() {
       name: "Aditya Kumar Jha",
       role: "Founder , CEO",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_1_kujlgv.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353202/ey3l5kixd9r1k58jbgkl.webp",
       color: "#F36363",
     },
     {
       name: "Subhankar Jha",
       role: "Founder , CTO",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_18_elyu5f.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353203/bqwt3z1e4d6icueonoa7.webp",
       color: "#F36363",
     },
     {
       name: "Onkar Nath Jha",
       role: "Accounting",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_1-1_nw0av9.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353203/vkytdeuzkkyfwlztfimo.webp",
       color: "#BFD200",
     },
     {
       name: "Priyangsu Banerjee",
       role: "Lead Developer",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_17_liwbzt.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353203/vao068atdgdv4j88nfzv.webp",
       color: "#9086FF",
     },
     {
       name: "Shaona Sarkar",
       role: "Lead Graphic Designer",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_16_zf3ycp.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353203/j95taxnd73dnvjtqz6kf.webp",
       color: "#9086FF",
     },
     {
       name: "Lakshman Rao",
       role: "Graphic Designer",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_18-1_tnjikb.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353203/hbs0tl0wwmbm3lgtqclf.webp",
       color: "#325FFF",
     },
     {
       name: "Divya Pandey",
       role: "Graphic Designer",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_16-1_ng5vuw.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353203/j95taxnd73dnvjtqz6kf.webp",
       color: "#325FFF",
     },
     {
       name: "Darpan Singh",
       role: "Video Editor",
       image:
-        "https://res.cloudinary.com/dxfa5a3ya/image/upload/v1701031718/portfolio/image_17-1_v3z3ne.png",
+        "https://res.cloudinary.com/davpsqfkq/image/upload/v1704353204/gi9nxu8wvtxjilyrncdn.webp",
       color: "#325FFF",
     },
   ];
